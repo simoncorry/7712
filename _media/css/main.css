@@ -10,7 +10,18 @@ body {
     margin:0px;
     padding:0px;
     width:100%;
-    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-tap-highlight-color:rgba(0,0,0,0.0);
+}
+
+body:after {
+    position:fixed;
+    top:0px;
+    left:0px;
+    background:transparent url(/_media/images/bg/spirals.png) repeat-y top left;
+    background-size:cover !important;
+    width:224px;
+    height:100%;
+    content:'';    
 }
 
 img {border:none; outline:none; border-style:none;}
@@ -19,7 +30,6 @@ a:focus,a:active {outline:none;}
 
 ::-moz-selection{background:#313B5B; color:#FFFFFF; text-shadow:none;}
 ::selection {background:#313B5B; color:#FFFFFF; text-shadow:none;}
-a:link {-webkit-tap-highlight-color:rgba(0,0,0,0);}
 
 /* /// TYPEFACES /// */
 

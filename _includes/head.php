@@ -12,12 +12,13 @@
         <link type="text/css" rel="stylesheet" href="/_media/css/main.css" />
         <link type="text/css" rel="stylesheet" href="/_media/css/supersized/supersized.css" />
         <link type="text/css" rel="stylesheet" href="/_media/css/supersized/supersized.shutter.css" />
+        <link type="text/css" rel="stylesheet" href="/_media/css/home.css" />
         
         <!-- /// JS /// -->
         <script type="text/javascript" src="/_media/js/jquery-1.7.2.min.js"></script>
         <script type="text/javascript" src="/_media/js/modernizr-2.5.3.min.js"></script>        
-        <script type="text/javascript" src="/_media/js/jquery.easing.min.js"></script>		
-		<script type="text/javascript" src="/_media/js/supersized/supersized.3.2.7.min.js"></script>
-		<script type="text/javascript" src="/_media/js/supersized/supersized.shutter.min.js"></script>
-		<script type="text/javascript" src="/_media/js/links.js"></script>
-	
+        <script type="text/javascript" src="/_media/js/jquery.easing.min.js"></script>        
+        <script type="text/javascript" src="/_media/js/supersized/supersized.3.2.7.min.js"></script>
+        <script type="text/javascript" src="/_media/js/supersized/supersized.shutter.min.js"></script>
+        <script type="text/javascript" src="/_media/js/links.js"></script>
+    

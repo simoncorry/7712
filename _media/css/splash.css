@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+/* /// SPLASH /// */
+
+body {
+    background:transparent url(/_media/images/bg/bg-splash.jpg) fixed no-repeat !important;
+    background-size:cover !important;
+}
+
+section {
+    z-index:4;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    min-width:960px;
+    height:430px;
+    opacity:0;
+    -webkit-transition:all 0.5s ease-in-out; 
+    -moz-transition:   all 0.5s ease-in-out;
+    -ms-transition:    all 0.5s ease-in-out; 
+    -o-transition:     all 0.5s ease-in-out;  
+    transition:        all 0.5s ease-in-out;    
+}
+
+/* Header */
+
+section > header {
+    z-index:4;
+    position:absolute;
+    left:140px;
+    top:-20px;
+    background:rgb(160,196,218); /* Fallback */
+    background:rgba(160,196,218,0.6);
+    width:380px;
+    height:380px;
+    border-radius:190px;
+}
+
+section > header > h1 {
+    position:absolute;
+    left:50%;
+    top:50%;
+    background:url(/_media/images/logo/77logo.png);
+    background-size:cover !important;
+    width:270px;
+    height:120px;
+    margin:-60px 0 0 -135px;
+}
+
+/* Article */
+
+section > article {
+    z-index:1;
+    position:absolute;
+    left:400px;
+    top:260px;
+    background:rgb(0,0,0); /* Fallback */
+    background:rgba(0,0,0,0.6);
+    width:250px;
+    height:250px;
+    border-radius:125px;
+    -webkit-transition:all 0.3s ease-in-out; 
+    -moz-transition:   all 0.3s ease-in-out;
+    -ms-transition:    all 0.3s ease-in-out; 
+    -o-transition:     all 0.3s ease-in-out;  
+    transition:        all 0.3s ease-in-out;
+}
+
+section > article > ul {
+    position:absolute;
+    left:50%;
+    top:50%;
+    width:200px;
+    height:40px;
+    margin:-0px 0 0 -100px;
+}
+
+section > article > ul li {margin-bottom:5px;}
+
+section > article > ul li a {
+    font:14px/18px 'chronicledisp-bolditalic', Georgia, serif;
+    font-weight:bold;
+    color:#fff;
+    text-transform:uppercase;
+    text-decoration:none;
+    text-shadow:rgba(50,50,50,0.2) 1px 1px 1px;
+    -webkit-transition:all 0.2s ease-in-out; 
+    -moz-transition:   all 0.2s ease-in-out;
+    -ms-transition:    all 0.2s ease-in-out; 
+    -o-transition:     all 0.2s ease-in-out;  
+    transition:        all 0.2s ease-in-out;
+}
+
+section > article > ul li a.email:hover {
+    color:#285e7c;
+    text-shadow:rgba(255,255,255,0.2) 0px 0px 1px;
+}
+
+section > article > ul li a:active {
+    -webkit-transform:translate(5px,0px);
+    -moz-transform:   translate(5px,0px);
+    -ms-transform:    translate(5px,0px);
+    -o-transform:     translate(5px,0px);
+    transform:        translate(5px,0px);
+}
+
+/* Aside */
+
+section > aside {
+    position:absolute;
+    left:600px;
+    top:212px;
+    font:24px/24px 'chronicledisp-bolditalic', Georgia, serif;
+    font-weight:bold;
+    color:#fff;
+    text-transform:uppercase;
+    text-decoration:none;
+    text-shadow:rgba(50,50,50,0.2) 1px 1px 1px;
+}

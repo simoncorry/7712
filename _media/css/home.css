@@ -44,8 +44,8 @@ section > ul li {
     transition:        all 0.3s ease-in-out;
 }
 
-section > ul li:hover { background:rgba(227,101,101,0.90) !important;}
-section > ul li:active {background:rgba(227,101,101,0.90) !important;}
+section > ul li:hover { background:rgba(209,210,213,0.90) !important;}
+section > ul li:active {background:rgba(209,210,213,0.90) !important;}
 
 section > ul li:last-child,
 section > ul li.no-margin {margin-right:0px !important;}
@@ -143,11 +143,11 @@ section > header > h1 {
     position:absolute;
     left:50%;
     top:50%;
-    background:transparent;
+    background:url(/_media/images/logo/77logo-white.png);
     background-size:cover !important;
-    width:216px;
+    width:220px;
     height:100px;
-    margin:-50px 0 0 -108px;
+    margin:-50px 0 0 -110px;
 }
 
 /* Article */
@@ -227,8 +227,8 @@ section > aside > ul li.logo {
 }
 
 
-section > aside > ul li:hover { background:rgba(227,101,101,0.90) !important;}
-section > aside > ul li:active {background:rgba(227,101,101,0.90) !important;}
+section > aside > ul li:hover {background:rgba(209,210,213,0.90) !important;}
+section > aside > ul li:active {background:rgba(209,210,213,0.90) !important;}
 
 section > aside > ul li:first-child {margin-top:8px;}
 section > aside > ul li:last-child,

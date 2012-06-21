@@ -23,7 +23,7 @@ section {
     transition:        all 0.5s ease-in-out;    
 }
 
-/* Header */
+/* Header 380x20*/ 
 
 section > header {
     z-index:4;
@@ -41,7 +41,7 @@ section > header > h1 {
     position:absolute;
     left:50%;
     top:50%;
-    background:url(/_media/images/logo/77logo.png);
+    background:url(/_media/images/logo/77logo.png) no-repeat;
     background-size:cover !important;
     width:270px;
     height:120px;
@@ -79,8 +79,7 @@ section > article > ul {
 section > article > ul li {margin-bottom:5px;}
 
 section > article > ul li a {
-    font:14px/18px 'chronicledisp-bolditalic', Georgia, serif;
-    font-weight:bold;
+    font:14px/18px verdana, sans-serif;
     color:#fff;
     text-transform:uppercase;
     text-decoration:none;
@@ -92,6 +91,9 @@ section > article > ul li a {
     transition:        all 0.2s ease-in-out;
 }
 
+section > article > ul li a.tel {
+    font:14px/18px verdana, sans-serif;
+}
 section > article > ul li a.email:hover {
     color:#285e7c;
     text-shadow:rgba(255,255,255,0.2) 0px 0px 1px;
@@ -111,11 +113,8 @@ section > aside {
     position:absolute;
     left:550px;
     top:212px;
-    width:350px;
-    font:22px/22px 'chronicledisp-bolditalic', Georgia, serif;
-    font-weight:bold;
-    color:#fff;
-    text-transform:uppercase;
-    text-decoration:none;
-    text-shadow:rgba(50,50,50,0.2) 1px 1px 1px;
+    background:url(/_media/images/splash/temp-headline.png) no-repeat;
+    background-size:cover !important;
+    width:380px;
+    height:18px;
 }

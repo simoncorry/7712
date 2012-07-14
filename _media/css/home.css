@@ -93,14 +93,13 @@ section > nav > ul {
     position:absolute;
     left:50%;
     top:50%;
-    width:144px;
-    height:112px;
-    margin:-56px 0 0 -72px;
+    width:134px;
+    height:130px;
+    margin:-65px 0 0 -67px;
 }
 
 section > nav > ul li a {
-    font:14px/18px 'chronicledisp-bolditalic', Georgia, serif;
-    font-weight:bold;
+    font:italic bold 14px/22px Georgia, serif;
     color:#fff;
     text-transform:uppercase;
     text-decoration:none;
@@ -187,9 +186,8 @@ section > article > div {
 }
 
 section > article > div > p {
-    font:16px/22px 'chronicledisp-semibolditalic', Georgia, serif;
+    font:italic normal 16px/22px Georgia, serif;
     color:#fff;
-    font-weight:600;
     text-shadow:rgba(50,50,50,0.4) 1px 1px 1px;
 }
 

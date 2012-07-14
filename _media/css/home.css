@@ -31,8 +31,8 @@ section > ul {
 section > ul li {
     float:left;
     position:relative;
-    background:rgb(109,110,113); /* Fallback */
-    background:rgba(109,110,113,0.05);
+    background:rgb(255,255,255); /* Fallback */
+    background:rgba(255,255,255,0.6);
     width:38px;
     height:38px;
     margin-right:12px;
@@ -72,7 +72,7 @@ section > nav {
     left:110px;
     top:170px;
     background:rgb(160,196,218); /* Fallback */
-    background:rgba(160,196,218,0.8);
+    background:rgba(160,196,218,0.9);
     width:216px;
     height:216px;
     border-radius:140px;
@@ -104,7 +104,7 @@ section > nav > ul li a {
     color:#fff;
     text-transform:uppercase;
     text-decoration:none;
-    text-shadow:rgba(50,50,50,0.2) 1px 1px 1px;
+    text-shadow:rgba(50,50,50,0.4) 1px 1px 1px;
     -webkit-transition:all 0.2s ease-in-out; 
     -moz-transition:   all 0.2s ease-in-out;
     -ms-transition:    all 0.2s ease-in-out; 
@@ -132,8 +132,8 @@ section > header {
     position:absolute;
     left:240px;
     top:-20px;
-    background:rgb(0,0,0); /* Fallback */
-    background:rgba(0,0,0,0.8);
+    background:rgb(35,31,32); /* Fallback */
+    background:rgba(35,31,32,0.8);
     width:280px;
     height:280px;
     border-radius:140px;
@@ -157,8 +157,8 @@ section > article {
     position:absolute;
     left:465px;
     top:70px;
-    background:rgb(109,110,113); /* Fallback */
-    background:rgba(109,110,113,0.60);
+    background:rgb(35,31,32); /* Fallback */
+    background:rgba(35,31,32,0.4);
     width:360px;
     height:360px;
     border-radius:180px;
@@ -187,10 +187,10 @@ section > article > div {
 }
 
 section > article > div > p {
-    font:18px/24px 'chronicledisp-semibolditalic', Georgia, serif;
+    font:16px/22px 'chronicledisp-semibolditalic', Georgia, serif;
     color:#fff;
     font-weight:600;
-    text-shadow:rgba(50,50,50,0.2) 1px 1px 1px;
+    text-shadow:rgba(50,50,50,0.4) 1px 1px 1px;
 }
 
 /* Aside */
@@ -206,8 +206,8 @@ section > aside {
 section > aside > ul li {
     float:left;
     position:relative;
-    background:rgb(109,110,113); /* Fallback */
-    background:rgba(109,110,113,0.05);
+    background:rgb(255,255,255); /* Fallback */
+    background:rgba(255,255,255,0.6);
     width:38px;
     height:38px;
     margin-right:12px;

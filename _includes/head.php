@@ -20,5 +20,6 @@
         <script type="text/javascript" src="/_media/js/jquery.easing.min.js"></script>        
         <script type="text/javascript" src="/_media/js/supersized/supersized.3.2.7.min.js"></script>
         <script type="text/javascript" src="/_media/js/supersized/supersized.shutter.min.js"></script>
+        <!-- <script type="text/javascript" src="/_media/js/colors.js"></script> -->
         <script type="text/javascript" src="/_media/js/links.js"></script>
     

@@ -49,42 +49,16 @@
                     // Components
                     slide_links:'blank',         // Individual links for each slide (Options: false, 'num', 'name', 'blank')                            
                     slides:[                     // Slideshow Images
-                        {image : '/_media/images/slides/home/bg-roof-party-01.jpg', thumb : '/_media/images/slides/home/bg-roof-party-01.jpg'},
-                        {image : 'http://buildinternet.s3.amazonaws.com/projects/supersized/3.2/slides/kazvan-2.jpg', thumb : 'http://buildinternet.s3.amazonaws.com/projects/supersized/3.2/thumbs/kazvan-2.jpg'},         {image : 'http://buildinternet.s3.amazonaws.com/projects/supersized/3.2/slides/kazvan-3.jpg', thumb : 'http://buildinternet.s3.amazonaws.com/projects/supersized/3.2/thumbs/kazvan-3.jpg'}
+                        {image : '/_media/images/slides/home/01.jpg', thumb : '/_media/images/slides/home/01.jpg'},
+                        {image : '/_media/images/slides/home/02.jpg', thumb : '/_media/images/slides/home/02.jpg'},
+                        {image : '/_media/images/slides/home/03.jpg', thumb : '/_media/images/slides/home/03.jpg'},
+                        {image : '/_media/images/slides/home/04.jpg', thumb : '/_media/images/slides/home/04.jpg'},
+                        {image : '/_media/images/slides/home/05.jpg', thumb : '/_media/images/slides/home/05.jpg'},
+                        {image : '/_media/images/slides/home/06.jpg', thumb : '/_media/images/slides/home/06.jpg'},
+                        {image : '/_media/images/slides/home/07.jpg', thumb : '/_media/images/slides/home/07.jpg'}
                     ]
                 });
             });            
-        </script>
-        
-        <!-- /// COLOR MANAGER /// -->
-        <script type="text/javascript">           
-            var checkPage = function(){
-                /* Remove attr */
-                $('section > ul li').removeClass('light-8');
-                $('section > ul li').removeClass('light-10');
-                $('aside > ul li').removeClass('light-8');
-                $('aside > ul li').removeClass('light-10');
-                $('nav').removeClass('nav-dark-8');
-                $('nav').removeClass('nav-dark-10');
-                $('article').removeClass('article-dark-8');
-                /* Set attr */
-                if($('ul li').is('.slide-1.activeslide')) {
-                    $('section > ul li').addClass('light-8');
-                    $('aside > ul li').addClass('light-8');
-                    $('nav').addClass('nav-dark-8');
-                    $('article').addClass('article-dark-8');                    
-                }
-                else if($('ul li').is('.slide-2.activeslide')) {
-                    $('section > ul li').addClass('light-10');
-                    $('aside > ul li').addClass('light-10');
-                    $('nav').addClass('nav-dark-10');
-                    $('article').addClass('article-dark-8');
-                }
-            }
-            var intrvl = setInterval(checkPage,100);
-            $(document).ready(function() { 
-                checkPage();
-            });       
         </script>
         
         <!-- /// TRAY BTN /// -->

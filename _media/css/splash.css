@@ -7,6 +7,8 @@ body {
     background-size:cover !important;
 }
 
+/* Section */
+
 section {
     z-index:4;
     position:absolute;
@@ -23,7 +25,24 @@ section {
     transition:        all 0.5s ease-in-out;    
 }
 
-/* Header 380x20*/ 
+/* Temp */
+
+section > a.temp {
+    z-index:4;
+    position:absolute;
+    left:100px;
+    top:-20px;
+    background:url(/_media/images/splash/temp_page2.png) no-repeat;
+    background-size:cover !important;
+    width:860px;
+    height:564px;
+    outline:none;
+    border:none;
+}
+
+.ie .temp {background:url(/_media/images/splash/temp_page2-ie.png) no-repeat;}
+
+/* Header */ 
 
 section > header {
     z-index:4;

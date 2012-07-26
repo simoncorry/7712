@@ -83,7 +83,7 @@
         	<nav>
             	<ul>
             	   <li><a href="#">Home</a></li>
-            	   <li><a href="#">Residences</a></li>
+            	   <li><a href="#">Amenities</a></li>
             	   <li><a href="#">Location</a></li>
             	   <li><a href="#">Views</a></li>
             	   <li><a href="#">Floor Plans</a></li>

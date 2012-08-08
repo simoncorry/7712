@@ -62,7 +62,7 @@ section > ul li > a {
 section > ul li > a.icon-twitter {background:url(/_media/images/icons/icon-twitter.png);}
 section > ul li > a.icon-vimeo {background:url(/_media/images/icons/icon-vimeo.png);}
 section > ul li > a.icon-facebook {background:url(/_media/images/icons/icon-facebook.png);}
-section > ul li > a.icon-google {background:url(/_media/images/icons/icon-google.png);}
+section > ul li > a.icon-webcam {background:url(/_media/images/icons/icon-webcam.png);}
 
 /* Nav */
 
@@ -131,23 +131,26 @@ section > header {
     position:absolute;
     left:240px;
     top:-20px;
-    background:rgb(35,31,32); /* Fallback */
-    background:rgba(35,31,32,0.8);
+    width:280px;
+    height:280px; 
+}
+
+section > header > a h1 {    
+    display:block;
+    background:rgba(35,31,32,0.8) url(/_media/images/logo/77logo-white.png) center center no-repeat;
+    background-size:220px !important;
     width:280px;
     height:280px;
     border-radius:140px;
+    -webkit-transition:all 0.3s ease-in-out; 
+    -moz-transition:   all 0.3s ease-in-out;
+    -ms-transition:    all 0.3s ease-in-out; 
+    -o-transition:     all 0.3s ease-in-out;  
+    transition:        all 0.3s ease-in-out;
 }
 
-section > header > h1 {
-    position:absolute;
-    left:50%;
-    top:50%;
-    background:url(/_media/images/logo/77logo-white.png);
-    background-size:cover !important;
-    width:220px;
-    height:100px;
-    margin:-50px 0 0 -110px;
-}
+section > header > a:hover h1  {background-color:rgba(35,31,32,0.95) !important;}
+section > header > a:active h1 {background-color:rgba(209,210,213,0.90) !important;}
 
 /* Article */
 
@@ -158,9 +161,9 @@ section > article {
     top:70px;
     background:rgb(35,31,32); /* Fallback */
     background:rgba(35,31,32,0.4);
-    width:360px;
-    height:360px;
-    border-radius:180px;
+    width:420px;
+    height:420px;
+    border-radius:210px;
 }
 
 .article-dark-2 {background:rgba(109,110,113,0.20) !important;}
@@ -169,14 +172,13 @@ section > article {
 .article-dark-8 {background:rgba(109,110,113,0.80) !important;}
 .article-dark-10 {background:rgba(109,110,113,0.95) !important;}
 
-section > article > div {
-    position:absolute;
+section > article > div {    position:absolute;
     left:50%;
     top:50%;
-    width:220px;
-    height:240px;
+    width:280px;
+    height:260px;
     padding-right:10px;
-    margin:-120px 0 0 -115px;
+    margin:-130px 0 0 -140px;
     overflow-y:scroll;
     overflow-x:hidden;
 }
@@ -197,19 +199,19 @@ section > aside {
     position:absolute;
     right:30px;
     top:30px;
-    width:175px;
+    width:100px;
     height:100px;
 }
 
 section > aside > ul li {
     float:left;
     position:relative;
-    background:rgb(255,255,255); /* Fallback */
-    background:rgba(35,31,32,0.1);
-    width:50px;
-    height:50px;
+    background:rgb(35,31,32); /* Fallback */
+    background:rgba(35,31,32,0.5);
+    width:100px;
+    height:100px;
     margin-right:12px;
-    border-radius:30px;
+    border-radius:50px;
     -webkit-transition:all 0.3s ease-in-out; 
     -moz-transition:   all 0.3s ease-in-out;
     -ms-transition:    all 0.3s ease-in-out; 
@@ -217,37 +219,17 @@ section > aside > ul li {
     transition:        all 0.3s ease-in-out;
 }
 
-section > aside > ul li.logo {
-    width:100px !important;
-    height:100px !important;
-    border-radius:50px !important;
-    margin-right:0px !important;
-}
-
-
-section > aside > ul li:hover {background:rgba(209,210,213,0.90) !important;}
+section > aside > ul li:hover {background:rgba(35,31,32,0.8) !important;}
 section > aside > ul li:active {background:rgba(209,210,213,0.90) !important;}
-
-section > aside > ul li:first-child {margin-top:8px;}
-section > aside > ul li:last-child,
-section > aside > ul li.no-margin {margin-right:0px !important;}
 
 section > aside > ul li > a { 
     position:absolute;
     left:0;
-    background-size:cover !important;    
-    opacity:0.7;
-}
-
-section > aside > ul li > a.icon-webcam {
-    background:url(/_media/images/icons/icon-webcam.png);
-    width:50px;
-    height:50px;
-}
-section > aside > ul li > a.icon-logo {
-    background:url(/_media/images/logo/logo-12midtown.png);
+    background:url(/_media/images/logo/logo-12midtown-white.png);
+    background-size:cover !important;
     width:100px;
-    height:100px;
+    height:100px;       
+    opacity:1;
 }
 
 /* Light */

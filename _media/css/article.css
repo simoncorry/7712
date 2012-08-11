@@ -31,24 +31,33 @@ section > article > div {
 }
 
 section > article > div > h2 {
-    font:italic bold 16px/20px Georgia, serif;
+    font:italic normal 16px/20px Georgia, serif;
     color:#fff;
     text-transform:uppercase;
-    text-shadow:rgba(50,50,50,0.8) 1px 1px 1px;
+    text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
     padding:5px 0 5px;
 }
 
 section > article > div > p {
     font:italic lighter 16px/22px Georgia, serif;
     color:#fff;
-    text-shadow:rgba(50,50,50,0.8) 1px 1px 1px;
+    text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
 }
 
 section > article > div > ul {list-style-type:disc !important;}
 
 section > article > div > ul li {
-    font:italic normal 15px/18px Georgia, serif;
-    color:#fff;
-    text-shadow:rgba(50,50,50,0.8) 1px 1px 1px;
+    font:italic normal 13.5px/18px Georgia, serif;
+    color:#f9f9f9;
+    text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
     margin:8px 0 8px 20px;    
+}
+
+section > article > div div {
+    background:rgba(160,196,218,0.8);  
+    width:210px;
+    height:120px;
+    border-radius:5px !important;
+    padding:5px;
+    margin:10px 0;
 }

@@ -81,7 +81,7 @@ section > nav > ul li a {
     color:#fff;
     text-transform:uppercase;
     text-decoration:none;
-    text-shadow:rgba(50,50,50,0.8) 1px 1px 1px;
+    text-shadow:rgba(40,94,124,0.5) 1px 1px 0px;
     -webkit-transition:all 0.2s ease-in-out; 
     -moz-transition:   all 0.2s ease-in-out;
     -ms-transition:    all 0.2s ease-in-out; 

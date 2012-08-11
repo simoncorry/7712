@@ -19,6 +19,7 @@
         <link type="text/css" rel="stylesheet" href="/_media/css/aside.css" />        
         
         <!-- /// JS /// -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
         <script type="text/javascript" src="/_media/js/jquery-1.7.2.min.js"></script>
         <script type="text/javascript" src="/_media/js/modernizr-2.5.3.min.js"></script>        
         <script type="text/javascript" src="/_media/js/jquery.easing.min.js"></script>        

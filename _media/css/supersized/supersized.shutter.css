@@ -163,12 +163,12 @@ ul#thumb-list li:hover{cursor:pointer;}
 
 #thumb-back {
     left:0;
-    background:url('/img/thumb-back.png') no-repeat center center;
+    background:url('/_media/images/supersized/thumb-back.png') no-repeat center center;
 }
 
 #thumb-forward {
     right:0;
-    background:url('/img/thumb-forward.png') no-repeat center center;
+    background:url('/_media/images/supersized/thumb-forward.png') no-repeat center center;
 }
 
 #thumb-back:hover,

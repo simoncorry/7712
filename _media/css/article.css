@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* /// ARTICLE /// */
+
+section > article {
+    z-index:1;
+    position:absolute;
+    left:465px;
+    top:70px;
+    background:rgb(35,31,32); /* Fallback */
+    background:rgba(35,31,32,0.4);
+    width:420px;
+    height:420px;
+    border-radius:210px;
+}
+
+section > article > div {    
+    position:absolute;
+    left:50%;
+    top:50%;
+    width:280px;
+    height:260px;
+    padding-right:10px;
+    margin:-130px 0 0 -140px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+@-moz-document url-prefix() {
+    section > article > div {overflow-y:-moz-scrollbars-none;}
+}
+
+section > article > div > p {
+    font:italic normal 16px/22px Georgia, serif;
+    color:#fff;
+    text-shadow:rgba(50,50,50,0.4) 1px 1px 1px;
+}

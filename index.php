@@ -83,66 +83,19 @@
     </head>
     <body>
         <div id="preloader"></div>
-        <section>
-        	<ul id="social-links">
-            	<li><a href="#" class="icon-twitter"></a></li>
-            	<li><a href="#" class="icon-vimeo"></a></li>
-            	<li><a href="#" class="icon-facebook"></a></li>
-            	<li><a href="#" class="icon-webcam"></a></li>            	
-        	</ul>       	
-        	<nav>
-            	<ul>
-            	   <li><a href="#">Amenities</a></li>
-            	   <li><a href="#">Features</a></li>
-            	   <li><a href="#">Location</a></li>
-            	   <li><a href="#">Floor Plans</a></li>
-            	   <li><a href="#">Gallery</a></li>
-            	   <li><a href="#">Contact</a></li>
-            	</ul>
-        	</nav>
-        	<header>
-            	<a href="/"><h1></h1></a>
-        	</header>
-        	<article>
-            	<div>
-            	    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <section>       	       	
+<?php /* NAV */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/nav.php"); ?>
+            <article>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
-        	</article>
-        	<aside>
-            	<ul>
-                	<li class="logo"><a href="#" class="icon-logo"></a></li>
-            	</ul>
-        	</aside>
+            </article>
+            
         	<div class="group"></div>
-        </section> 
-        <div>
-            <object style="width:100%;height:100%;padding:0 !important;margin:0 !important;">
-                <param name="movie" value="http://static.issuu.com/webembed/viewers/style1/v2/IssuuReader.swf?mode=mini&amp;documentId=120516040250-3b5bd3a7c8404b86b1fc36d0876f94b4" />
-                <param name="allowfullscreen" value="true"/>
-                <param name="menu" value="false"/>
-                <param name="wmode" value="transparent"/>
-                <param name="scale" value="noborder" />
-                <param name="bgcolor" value="#ffffff" />
-                <param name="wmode" value="transparent"/>
-                <embed src="http://static.issuu.com/webembed/viewers/style1/v2/IssuuReader.swf" type="application/x-shockwave-flash" allowfullscreen="true" menu="false" wmode="transparent" />
-            </object>
-        </div>     
-        <!-- Slideshow Controls -->        
-        <!-- Remove this
-        <div id="controls-wrapper" class="load-item">
-            <div id="controls">
-                <a id="tray-button" class=""></a>
-                <ul id="slide-list"></ul>            
-            </div>
-        </div>  
-        -->      
+        </section>     
         <div id="thumb-tray" class="load-item">
             <div id="thumb-back"></div>
             <div id="thumb-forward"></div>
         </div>
-        
-        
-        <!-- <div class="toggle" style="z-index:9999; position:absolute; bottom:40px; left:40px; background:red; width:200px; height:20px;">TOGGLE CONTENT</div> -->
-        
     </body>
 </html>

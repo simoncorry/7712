@@ -11,11 +11,11 @@
     <head>
         <meta charset="utf-8" />
         
-        <?php /* ERROR */ ini_set('error_reporting', E_ALL); ini_set('display_errors', 0); ?>
+        <?php /* ERROR */ ini_set('error_reporting', E_ALL); ini_set('display_errors', 1); ?>
         <?php /* TAG */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/tag.php"); ?>
-        <?php /* PAGE */ $thisPage="Home"; ?>
+        <?php /* PAGE */ $thisPage="Amenities"; ?>
         
-        <title>77 12th - Luxury High-Rise Apartments - Midtown Atlanta</title>
+        <title>77 12th - Amenities</title>
         <meta name="Author" content="77 12th" />
         <meta name="description" content="77 12th - Luxury High-Rise Apartments - Midtown Atlanta"/>
         <meta name="keywords" content=""/>
@@ -54,28 +54,17 @@
                     // Components
                     slide_links:'blank',         // Individual links for each slide (Options: false, 'num', 'name', 'blank')                            
                     slides:[                     // Slideshow Images
-                        {image : '/_media/images/slides/home/01.jpg', thumb : '/_media/images/slides/home/01-thumb.jpg'},
-                        {image : '/_media/images/slides/home/02.jpg', thumb : '/_media/images/slides/home/02-thumb.jpg'},
-                        {image : '/_media/images/slides/home/03.jpg', thumb : '/_media/images/slides/home/03-thumb.jpg'},
-                        {image : '/_media/images/slides/home/04.jpg', thumb : '/_media/images/slides/home/04-thumb.jpg'},
-                        {image : '/_media/images/slides/home/05.jpg', thumb : '/_media/images/slides/home/05-thumb.jpg'},
-                        {image : '/_media/images/slides/home/06.jpg', thumb : '/_media/images/slides/home/06-thumb.jpg'},
-                        {image : '/_media/images/slides/home/07.jpg', thumb : '/_media/images/slides/home/07-thumb.jpg'}
+                        {image : '/_media/images/slides/amenities/01.jpg', thumb : '/_media/images/slides/amenities/01-thumb.jpg'},
+                        {image : '/_media/images/slides/amenities/02.jpg', thumb : '/_media/images/slides/amenities/02-thumb.jpg'},
+                        {image : '/_media/images/slides/amenities/03.jpg', thumb : '/_media/images/slides/amenities/03-thumb.jpg'},
+                        {image : '/_media/images/slides/amenities/04.jpg', thumb : '/_media/images/slides/amenities/04-thumb.jpg'},
+                        {image : '/_media/images/slides/amenities/05.jpg', thumb : '/_media/images/slides/amenities/05-thumb.jpg'},
+                        {image : '/_media/images/slides/amenities/06.jpg', thumb : '/_media/images/slides/amenities/06-thumb.jpg'},
+                        {image : '/_media/images/slides/amenities/07.jpg', thumb : '/_media/images/slides/amenities/07-thumb.jpg'}
                     ]
                 });
             });            
         </script>
-        
-        <!-- /// TRAY BTN /// -->
-        <!-- Remove this when confirmed thumb nav
-        <script type="text/javascript">
-            $(document).ready(function() { 
-                $('#tray-button').click(function() {
-                    $(this).toggleClass('active');
-                });
-            });
-        </script>
-        -->
         
         <!-- /// TOGGLE BTN /// -->
         <script type="text/javascript">
@@ -93,7 +82,34 @@
 <?php /* NAV */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/nav.php"); ?>
             <article>
                 <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h2>Outdoor Plaza Level<br />(6th Floor):</h2>
+                    <ul>
+                        <li>Saline swimming pool with epic waterfall and in-water tanning ledges</li>
+                        <li>Cabana lounges</li>
+                        <li>Outdoor fireplaces</li>
+                        <li>Private grilling and entertainment areas</li>
+                        <li>Bocce ball court</li>
+                        <li>Poolside sports bar with multiple HD displays</li>
+                        <li>Lush landscaping with uninterrupted views of the Atlanta skyline</li>
+                    </ul>
+                    <h2>Top Floor Club Level<br />(23rd floor):</h2>
+                    <ul>
+                        <li>Sports lounge with billiards, poker, shuffleboard, and theater seating</li>
+                        <li>Outdoor sky deck with breathtaking panoramic views</li>
+                        <li>Cyber caf&eacute;</li>
+                        <li>Skyline viewing room with fireplace</li>
+                        <li>Media / library lounge</li>
+                        <li>Conference center</li>
+                        <li>State-of-the-art fitness center with dramatic views</li>
+                    </ul>
+                    <h2>Conveniences:</h2>
+                    <ul>
+                        <li>Concierge</li>
+                        <li>Wireless Internet</li>
+                        <li>Secured covered parking &amp; building access</li>
+                        <li>4 high-speed elevators with dedicated freight elevator</li>
+                        <li>Trash chutes on each floor</li>
+                    </ul>
                 </div>
             </article>
         </section>     

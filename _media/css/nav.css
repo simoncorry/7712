@@ -28,7 +28,7 @@ section > ul li {
     transition:        all 0.3s ease-in-out;
 }
 
-section > ul li:hover { background:rgba(209,210,213,0.90) !important;}
+section > ul li:hover {background:rgba(209,210,213,0.90) !important;}
 section > ul li:active {background:rgba(209,210,213,0.90) !important;}
 
 section > ul li:last-child,
@@ -81,7 +81,7 @@ section > nav > ul li a {
     color:#fff;
     text-transform:uppercase;
     text-decoration:none;
-    text-shadow:rgba(50,50,50,0.4) 1px 1px 1px;
+    text-shadow:rgba(50,50,50,0.8) 1px 1px 1px;
     -webkit-transition:all 0.2s ease-in-out; 
     -moz-transition:   all 0.2s ease-in-out;
     -ms-transition:    all 0.2s ease-in-out; 
@@ -89,9 +89,10 @@ section > nav > ul li a {
     transition:        all 0.2s ease-in-out;
 }
 
-section > nav > ul li a:hover {
-    color:#285e7c;
-    text-shadow:rgba(255,255,255,0.2) 0px 0px 1px;
+section > nav > ul li a:hover,
+section > nav > ul li a.active {
+    color:#285e7c !important;
+    text-shadow:rgba(160,196,218,1.0) 0px -1px 0px;
 }
 
 section > nav > ul li a:active {

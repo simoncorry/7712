@@ -8,7 +8,7 @@
             <!-- Main Nav -->
             <nav>
                 <ul>
-                    <li><a href="#">Amenities</a></li>
+                    <li><a href="/amenities" class="<?php if($thisPage == "Amenities") echo'active'; ?>">Amenities</a></li>
                     <li><a href="#">Features</a></li>
                     <li><a href="#">Location</a></li>
                     <li><a href="#">Floor Plans</a></li>

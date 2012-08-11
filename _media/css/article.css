@@ -8,7 +8,7 @@ section > article {
     left:465px;
     top:70px;
     background:rgb(35,31,32); /* Fallback */
-    background:rgba(35,31,32,0.4);
+    background:rgba(35,31,32,0.6);
     width:420px;
     height:420px;
     border-radius:210px;
@@ -30,8 +30,25 @@ section > article > div {
     section > article > div {overflow-y:-moz-scrollbars-none;}
 }
 
-section > article > div > p {
-    font:italic normal 16px/22px Georgia, serif;
+section > article > div > h2 {
+    font:italic bold 16px/20px Georgia, serif;
     color:#fff;
-    text-shadow:rgba(50,50,50,0.4) 1px 1px 1px;
+    text-transform:uppercase;
+    text-shadow:rgba(50,50,50,0.8) 1px 1px 1px;
+    padding:5px 0 5px;
+}
+
+section > article > div > p {
+    font:italic lighter 16px/22px Georgia, serif;
+    color:#fff;
+    text-shadow:rgba(50,50,50,0.8) 1px 1px 1px;
+}
+
+section > article > div > ul {list-style-type:disc !important;}
+
+section > article > div > ul li {
+    font:italic normal 15px/18px Georgia, serif;
+    color:#fff;
+    text-shadow:rgba(50,50,50,0.8) 1px 1px 1px;
+    margin:8px 0 8px 20px;    
 }

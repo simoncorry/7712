@@ -50,13 +50,13 @@
                     // Components
                     slide_links:'blank',         // Individual links for each slide (Options: false, 'num', 'name', 'blank')                            
                     slides:[                     // Slideshow Images
-                        {image : '/_media/images/slides/home/01.jpg', thumb : '/_media/images/slides/home/01.jpg'},
-                        {image : '/_media/images/slides/home/02.jpg', thumb : '/_media/images/slides/home/02.jpg'},
-                        {image : '/_media/images/slides/home/03.jpg', thumb : '/_media/images/slides/home/03.jpg'},
-                        {image : '/_media/images/slides/home/04.jpg', thumb : '/_media/images/slides/home/04.jpg'},
-                        {image : '/_media/images/slides/home/05.jpg', thumb : '/_media/images/slides/home/05.jpg'},
-                        {image : '/_media/images/slides/home/06.jpg', thumb : '/_media/images/slides/home/06.jpg'},
-                        {image : '/_media/images/slides/home/07.jpg', thumb : '/_media/images/slides/home/07.jpg'}
+                        {image : '/_media/images/slides/home/01.jpg', thumb : '/_media/images/slides/home/01-thumb.jpg'},
+                        {image : '/_media/images/slides/home/02.jpg', thumb : '/_media/images/slides/home/02-thumb.jpg'},
+                        {image : '/_media/images/slides/home/03.jpg', thumb : '/_media/images/slides/home/03-thumb.jpg'},
+                        {image : '/_media/images/slides/home/04.jpg', thumb : '/_media/images/slides/home/04-thumb.jpg'},
+                        {image : '/_media/images/slides/home/05.jpg', thumb : '/_media/images/slides/home/05-thumb.jpg'},
+                        {image : '/_media/images/slides/home/06.jpg', thumb : '/_media/images/slides/home/06-thumb.jpg'},
+                        {image : '/_media/images/slides/home/07.jpg', thumb : '/_media/images/slides/home/07-thumb.jpg'}
                     ]
                 });
             });            

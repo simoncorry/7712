@@ -121,7 +121,7 @@
         <div id="preloader"></div>
         <section>       	       	
 <?php /* NAV */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/nav.php"); ?>
-            <article>
+            <article class="gallery">
                 <div>
                     <h2>Videos &amp; Digital Books</h2>
                     <div>

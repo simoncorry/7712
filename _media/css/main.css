@@ -6,7 +6,8 @@
 
 html,
 body {
-    background:transparent;
+    background:url(/_media/images/bg/bg-splash.jpg) no-repeat;
+    background-size:cover !important;
     margin:0px;
     padding:0px;
     width:100%;

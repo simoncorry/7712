@@ -21,9 +21,35 @@ section > article.gallery {
     top:280px;
     background:rgb(35,31,32); /* Fallback */
     background:rgba(35,31,32,0.6);
-    width:330px;
-    height:320px;
+    width:270px;
+    height:55px;
     border-radius:20px;
+    overflow:hidden;
+    -webkit-transition:all 0.3s ease-in-out; 
+    -moz-transition:   all 0.3s ease-in-out;
+    -ms-transition:    all 0.3s ease-in-out; 
+    -o-transition:     all 0.3s ease-in-out;  
+    transition:        all 0.3s ease-in-out;
+}
+
+section > article.gallery:hover {
+    z-index:1;
+    position:absolute;
+    left:345px;
+    top:280px;
+    background:rgb(35,31,32); /* Fallback */
+    background:rgba(35,31,32,0.6);
+    width:330px;
+    height:300px;
+    border-radius:20px;
+}
+
+section > article.gallery > h2 {
+    font:italic normal 18px/18px Georgia, serif;
+    color:#fff;
+    text-transform:uppercase;
+    text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
+    padding:20px;
 }
 
 section > article > div {    
@@ -34,6 +60,18 @@ section > article > div {
     height:260px;
     padding-right:10px;
     margin:-130px 0 0 -140px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+section > article > div.gallery { 
+    position:absolute;
+    top:35px;
+    left:0;  
+    width:280px;
+    height:225px;
+    padding-right:10px;
+    margin:20px;
     overflow-y:scroll;
     overflow-x:hidden;
 }

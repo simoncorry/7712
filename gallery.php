@@ -122,8 +122,8 @@
         <section>       	       	
 <?php /* NAV */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/nav.php"); ?>
             <article class="gallery">
-                <div>
-                    <h2>Videos &amp; Digital Books</h2>
+                <h2>Videos &amp; Digital Books</h2>
+                <div class="gallery">
                     <div>
                         <object style="width:210px;height:120px;">
                             <param name="movie" value="http://static.issuu.com/webembed/viewers/style1/v2/IssuuReader.swf?mode=mini&amp;documentId=120516040250-3b5bd3a7c8404b86b1fc36d0876f94b4" />

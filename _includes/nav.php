@@ -1,9 +1,9 @@
             <!-- Social Links -->
             <ul id="social-links">
-                <li><a href="#" class="icon-twitter"></a></li>
-                <li><a href="#" class="icon-vimeo"></a></li>
-                <li><a href="#" class="icon-facebook"></a></li>
-                <li><a href="#" class="icon-webcam"></a></li>
+                <li><a href="http://www.twitter.com/7712th" class="icon-twitter" target="_blank"></a></li>
+                <li><a href="http://www.12thmidtown.com/videos/" class="icon-vimeo" target="_blank"></a></li>
+                <li><a href="http://www.facebook.com/7712th" class="icon-facebook" target="_blank"></a></li>
+                <li><a href="http://oxblue.com/open/brasfieldgorrie/7712thStreet" class="icon-webcam" target="_blank"></a></li>
             </ul>
             <!-- Main Nav -->
             <nav>

@@ -96,17 +96,6 @@
             });            
         </script>
         
-        <!-- /// TRAY BTN /// -->
-        <!-- Remove this when confirmed thumb nav
-        <script type="text/javascript">
-            $(document).ready(function() { 
-                $('#tray-button').click(function() {
-                    $(this).toggleClass('active');
-                });
-            });
-        </script>
-        -->
-        
         <!-- /// TOGGLE BTN /// -->
         <script type="text/javascript">
             $(document).ready(function() { 

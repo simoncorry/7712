@@ -49,6 +49,7 @@ section > article.gallery > h2 {
     color:#fff;
     text-transform:uppercase;
     text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
+    text-align:center;
     padding:20px;
 }
 
@@ -85,7 +86,6 @@ section > article > div > h2 {
     color:#fff;
     text-transform:uppercase;
     text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
-    text-align:center;
     padding:5px 0 5px;
 }
 

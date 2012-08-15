@@ -81,7 +81,7 @@ section > nav > ul li a {
     color:#fff;
     text-transform:uppercase;
     text-decoration:none;
-    text-shadow:rgba(40,94,124,0.5) 1px 1px 0px;
+    text-shadow:rgba(40,94,124,0.05) 1px 1px 0px !important;
     -webkit-transition:all 0.2s ease-in-out; 
     -moz-transition:   all 0.2s ease-in-out;
     -ms-transition:    all 0.2s ease-in-out; 
@@ -91,8 +91,8 @@ section > nav > ul li a {
 
 section > nav > ul li a:hover,
 section > nav > ul li a.active {
-    color:#285e7c !important;
-    text-shadow:rgba(160,196,218,1.0) 0px -1px 0px;
+    color:rgb(35,31,32) !important;
+    text-shadow:rgba(160,196,218,0.0) 0px -1px 0px;
 }
 
 section > nav > ul li a:active {

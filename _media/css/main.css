@@ -6,8 +6,11 @@
 
 html,
 body {
-    background:url(/_media/images/bg/bg-splash.jpg) no-repeat;
-    background-size:100% !important;
+    background:url(/_media/images/bg/bg-splash.jpg) no-repeat center center fixed;    
+    -webkit-background-size:cover !important;
+    -moz-background-size:cover !important;
+    -o-size:cover !important;
+    background-size:cover !important;
     margin:0px;
     padding:0px;
     width:100%;
@@ -19,6 +22,9 @@ body:after {
     top:0px;
     left:0px;
     background:transparent url(/_media/images/bg/spirals.png) repeat-y top left;
+    -webkit-background-size:cover !important;
+    -moz-background-size:cover !important;
+    -o-size:cover !important;
     background-size:cover !important;
     width:224px;
     height:100%;

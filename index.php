@@ -33,12 +33,10 @@
             $(document).ready(function() {    
                 $('#preloader').show();
                 $('#controls-wrapper').hide();
-                $('#thumb-tray').hide();
                 onload = function() {        
                     $('#preloader').hide();
                     $('section').addClass('show');
                     $('#controls-wrapper').show();
-                    $('#thumb-tray').show();
                 }
             });
         </script>
@@ -65,17 +63,6 @@
                 });
             });            
         </script>
-        
-        <!-- /// TRAY BTN /// -->
-        <!-- Remove this when confirmed thumb nav
-        <script type="text/javascript">
-            $(document).ready(function() { 
-                $('#tray-button').click(function() {
-                    $(this).toggleClass('active');
-                });
-            });
-        </script>
-        -->
         
         <!-- /// TOGGLE BTN /// -->
         <script type="text/javascript">

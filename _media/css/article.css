@@ -17,13 +17,13 @@ section > article {
 section > article.gallery {
     z-index:1;
     position:absolute;
-    left:345px;
+    left:340px;
     top:280px;
     background:rgb(35,31,32); /* Fallback */
     background:rgba(35,31,32,0.6);
-    width:270px;
-    height:55px;
-    border-radius:20px;
+    width:140px;
+    height:140px;
+    border-radius:70px;
     overflow:hidden;
     -webkit-transition:all 0.3s ease-in-out; 
     -moz-transition:   all 0.3s ease-in-out;
@@ -45,13 +45,20 @@ section > article.gallery:hover {
 }
 
 section > article.gallery > h2 {
-    font:italic normal 18px/18px Georgia, serif;
+    font:italic normal 16px/16px Georgia, serif;
     color:#fff;
     text-transform:uppercase;
     text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
     text-align:center;
-    padding:20px;
+    padding-top:65px;
+    -webkit-transition:all 0.3s ease-in-out; 
+    -moz-transition:   all 0.3s ease-in-out;
+    -ms-transition:    all 0.3s ease-in-out; 
+    -o-transition:     all 0.3s ease-in-out;  
+    transition:        all 0.3s ease-in-out;
 }
+
+section > article.gallery:hover h2 {padding-top:25px;}
 
 section > article > div {    
     position:absolute;
@@ -67,7 +74,7 @@ section > article > div {
 
 section > article > div.gallery { 
     position:absolute;
-    top:35px;
+    top:120px;
     left:0;  
     width:280px;
     height:225px;
@@ -75,7 +82,14 @@ section > article > div.gallery {
     margin:20px;
     overflow-y:scroll;
     overflow-x:hidden;
+    -webkit-transition:all 0.3s ease-in-out; 
+    -moz-transition:   all 0.3s ease-in-out;
+    -ms-transition:    all 0.3s ease-in-out; 
+    -o-transition:     all 0.3s ease-in-out;  
+    transition:        all 0.3s ease-in-out;
 }
+
+section > article.gallery:hover div.gallery {top:40px;}
 
 @-moz-document url-prefix() {
     section > article > div {overflow-y:-moz-scrollbars-none;}

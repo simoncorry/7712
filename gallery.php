@@ -111,7 +111,7 @@
         <section>       	       	
 <?php /* NAV */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/nav.php"); ?>
             <article class="gallery">
-                <h2>Videos &amp; Digital Books</h2>
+                <h2>Videos</h2>
                 <div class="gallery">
                     <div>
                         <object style="width:210px;height:120px;">

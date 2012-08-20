@@ -81,13 +81,15 @@
             });            
         </script>
         
-        <!-- /// TOGGLE BTN /// -->
+        <!-- /// FIXED FOOTER /// -->
         <script type="text/javascript">
-            $(document).ready(function() { 
-                $('.toggle').click(function() {
-                    $('section').toggleClass('hide');
-                });
-            });
+        $(document).ready(function() {
+		    $("section > footer").pinFooter("relative");
+		});
+
+		$(window).resize(function() {
+		    $("section > footer").pinFooter("relative");
+		});
         </script>
               
     </head>
@@ -123,6 +125,7 @@
                     </div>
                 </div>
             </article>
+<?php /* FOOTER */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/footer.php"); ?> 
         </section>     
 <?php /* NAV SLIDESHOW */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/nav-slideshow.php"); ?>        
     </body>

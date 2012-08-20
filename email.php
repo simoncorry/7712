@@ -9,7 +9,7 @@ if($_POST){
     $zip=$_POST['zip']; 
     $comments=$_POST['comments']; 
     
-    mail("simoncorry@gmail.com", "Contact Form via 7712th.com", $name . ' , ' . $email . ' , ' . $phone . ' , ' . $street . ' , ' . $city . ' , ' . $state . ' , ' . $zip . ' , ' . $comments, "From:" . $email); 
+    mail("contact@7712th.com", "Contact Form via 7712th.com", $name . ' , ' . $email . ' , ' . $phone . ' , ' . $street . ' , ' . $city . ' , ' . $state . ' , ' . $zip . ' , ' . $comments, "From:" . $email); 
     
 }
 ?>

@@ -28,8 +28,19 @@
         <?php /* GOOGLE PLUS SNIPPET */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/gp-snippet.php"); ?>
         <?php /* LINKS */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/head.php"); ?>
         
-         <script language="javascript">	
-             $(function() {   
+        <!-- /// FIXED FOOTER /// -->
+        <script type="text/javascript">
+        $(document).ready(function() {
+		    $("section > footer").pinFooter("relative");
+		});
+
+		$(window).resize(function() {
+		    $("section > footer").pinFooter("relative");
+		});
+        </script>
+        
+        <script language="javascript">	
+            $(function() {   
                 $("#contact .button").click(function() {                       
                     var name       = $("#name").val();     
                     var email      = $("#email").val(); 
@@ -93,6 +104,7 @@
                 <div class="group"></div>
                 <footer></footer>
             </form>
+<?php /* FOOTER */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/footer.php"); ?>            
         </section>     
     </body>
 </html>

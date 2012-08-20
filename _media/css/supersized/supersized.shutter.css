@@ -82,9 +82,9 @@ ul#slide-list li a {
 /* Thumbnail Tray */            
 
 #thumb-tray{ 
-    z-index:3; 
+    z-index:99; 
     position:fixed; 
-    bottom:30px !important; 
+    bottom:40px !important; 
     left:0; 
     background:-moz-linear-gradient(left, rgba(35,31,32,0) 0%, rgba(35,31,32,0.2) 20%, rgba(35,31,32,0.2) 80%, rgba(35,31,32,0) 100%);
     background:-webkit-gradient(linear, left top, right top, color-stop(0%,rgba(35,31,32,0)), color-stop(20%,rgba(35,31,32,0.2)), color-stop(80%,rgba(35,31,32,0.2)), color-stop(100%,rgba(35,31,32,0)));

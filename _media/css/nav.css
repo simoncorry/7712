@@ -51,7 +51,7 @@ section > ul li > a.icon-webcam {background:url(/_media/images/icons/icon-webcam
 /* Nav */
 
 section > nav {
-    z-index:1;
+    z-index:2;
     position:absolute;
     left:110px;
     top:170px;

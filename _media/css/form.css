@@ -8,7 +8,7 @@ p.success {
 }
 
 section > form {
-    z-index:1;
+    z-index:2;
     position:absolute;
     left:565px;
     top:70px;
@@ -121,5 +121,5 @@ form footer {
     background:transparent url(/_media/images/logo/logo-form.png) center center no-repeat;
     width:365px;
     height:74px;
-    padding-bottom:100px;   
+    padding-bottom:200px;   
 }

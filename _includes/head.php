@@ -17,14 +17,18 @@
         <link type="text/css" rel="stylesheet" href="/_media/css/header.css" />
         <link type="text/css" rel="stylesheet" href="/_media/css/article.css" />
         <link type="text/css" rel="stylesheet" href="/_media/css/aside.css" />
-        <link type="text/css" rel="stylesheet" href="/_media/css/form.css" />        
+        <link type="text/css" rel="stylesheet" href="/_media/css/footer.css" />
+        <link type="text/css" rel="stylesheet" href="/_media/css/form.css" /> 
+        <link type="text/css" rel="stylesheet" href="/_media/css/map.css" />        
         
         <!-- /// JS /// -->
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
         <script type="text/javascript" src="/_media/js/jquery-1.7.2.min.js"></script>
         <script type="text/javascript" src="/_media/js/modernizr-2.5.3.min.js"></script>    
-        <script type="text/javascript" src="/_media/js/links.js"></script>    
-        <?php if($thisPage == "Home" || $thisPage == "Amenities" || $thisPage == "Features" || $thisPage == "Gallery")
+        <script type="text/javascript" src="/_media/js/jquery-footer.js"></script>
+        <script type="text/javascript" src="/_media/js/links.js"></script> 
+        <script type="text/javascript" src="/_media/js/mobilymap.js"></script>    
+        <?php if($thisPage == "Home" || $thisPage == "Amenities" || $thisPage == "Features" || $thisPage == "Location" || $thisPage == "Gallery")
             echo '<script type="text/javascript" src="/_media/js/supersized/supersized.3.2.7.min.js"></script>
         <script type="text/javascript" src="/_media/js/supersized/supersized.shutter.min.js"></script>
         <script type="text/javascript" src="/_media/js/jquery.easing.min.js"></script>';    

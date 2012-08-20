@@ -9,7 +9,7 @@ section {
     left:0;
     width:100%;
     min-width:960px;
-    height:430px;
+    height:100%;
     -webkit-transition:all 0.5s ease-in-out; 
     -moz-transition:   all 0.5s ease-in-out;
     -ms-transition:    all 0.5s ease-in-out; 

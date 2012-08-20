@@ -45,7 +45,7 @@ section > article.gallery:hover {
 }
 
 section > article.gallery > h2 {
-    font:italic normal 16px/16px Georgia, serif;
+    font:italic normal 18px/18px Georgia, serif;
     color:#fff;
     text-transform:uppercase;
     text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
@@ -60,6 +60,24 @@ section > article.gallery > h2 {
 
 section > article.gallery:hover h2 {padding-top:25px;}
 
+section > article.contact {
+    z-index:1;
+    position:absolute;
+    left:110px;
+    top:405px;
+    background:rgb(35,31,32); /* Fallback */
+    background:rgba(35,31,32,0.6);
+    width:216px;
+    height:210px;
+    border-radius:20px;
+    overflow:hidden;
+    -webkit-transition:all 0.3s ease-in-out; 
+    -moz-transition:   all 0.3s ease-in-out;
+    -ms-transition:    all 0.3s ease-in-out; 
+    -o-transition:     all 0.3s ease-in-out;  
+    transition:        all 0.3s ease-in-out;
+}
+
 section > article > div {    
     position:absolute;
     left:50%;
@@ -70,6 +88,10 @@ section > article > div {
     margin:-130px 0 0 -140px;
     overflow-y:scroll;
     overflow-x:hidden;
+}
+
+@-moz-document url-prefix() {
+    section > article > div {overflow-y:-moz-scrollbars-none;}
 }
 
 section > article > div.gallery { 
@@ -91,8 +113,15 @@ section > article > div.gallery {
 
 section > article.gallery:hover div.gallery {top:40px;}
 
-@-moz-document url-prefix() {
-    section > article > div {overflow-y:-moz-scrollbars-none;}
+section > article > div.contact { 
+    position:absolute;
+    top:10px;
+    left:10px;  
+    width:180px;
+    height:225px;
+    margin:10px;
+    overflow-y:scroll;
+    overflow-x:hidden;
 }
 
 section > article > div > h2 {
@@ -117,6 +146,20 @@ section > article > div > ul li {
     text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
     margin:8px 0 8px 20px;    
 }
+
+section > article > div > ul li a {
+    font:italic lighter 12px/12px Georgia, serif;
+    color:rgb(160,196,218);
+    text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
+    text-transform:uppercase;
+    -webkit-transition:all 0.3s ease-in-out; 
+    -moz-transition:   all 0.3s ease-in-out;
+    -ms-transition:    all 0.3s ease-in-out; 
+    -o-transition:     all 0.3s ease-in-out;  
+    transition:        all 0.3s ease-in-out;
+}
+
+section > article > div > ul li a:hover {color:#f1f1f1;}
 
 section > article > div div {
     background:rgba(160,196,218,0.4);  

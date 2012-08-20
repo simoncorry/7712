@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+/* /// FORM /// */
+
+p.success {
+    font-size:16px;
+    color:rgb(160,196,218);
+}
+
+section > form {
+    z-index:1;
+    position:absolute;
+    left:565px;
+    top:70px;
+    width:365px;
+    height:600px;
+}
+
+section > form h2 {
+    font:italic normal 32px/32px Georgia, serif;
+    color:#fff;
+    text-transform:uppercase;
+    text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
+    padding-bottom:20px;
+}
+
+section > form p {
+    font:italic lighter 14px/20px Georgia, serif;
+    color:#fff;
+    text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
+    padding-bottom:20px;
+}
+
+section > form address {padding-bottom:20px;}
+
+section > form a {
+    font:italic lighter 14px/14px Georgia, serif;
+    color:rgb(160,196,218);
+    text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
+    text-transform:uppercase;
+    -webkit-transition:all 0.3s ease-in-out; 
+    -moz-transition:   all 0.3s ease-in-out;
+    -ms-transition:    all 0.3s ease-in-out; 
+    -o-transition:     all 0.3s ease-in-out;  
+    transition:        all 0.3s ease-in-out;
+}
+
+section > form a:hover {color:#f1f1f1;}
+
+section > form hr {
+    width:100%;   
+    border-left:  1px solid rgba(50,50,50,0.1);
+    border-right: 1px solid rgba(50,50,50,0.1);
+    border-top:   1px solid rgba(50,50,50,0.1);
+    border-bottom:1px solid rgba(0,0,0,0);
+    border-radius:2px;
+    margin:0px 0px 20px 0px;
+    overflow:hidden;
+}
+
+/* Inputs */
+
+section > form input, section > form textarea {
+    display:block;
+    background:rgba(255,255,255,0.8);
+    width:345px;
+    height:30px;
+    border:1px solid rgb(20,20,20);
+    border-radius:10px;
+    padding-left:20px;
+    margin-bottom:5px;
+    color:rgb(113,113,113) !important;
+    font:italic lighter 14px Georgia, serif;
+    -webkit-transition:all 0.3s ease-in-out; 
+    -moz-transition:   all 0.3s ease-in-out;
+    -ms-transition:    all 0.3s ease-in-out; 
+    -o-transition:     all 0.3s ease-in-out;  
+    transition:        all 0.3s ease-in-out; 
+    -webkit-appearance:none;
+    -moz-appearance:none;
+}
+
+section > form input[type=submit] {
+    float:right;
+    background:rgba(90,90,90,1);
+    width:100px;
+    height:35px;
+    padding-left:0px;
+    margin:5px 0 40px;
+    color:rgb(0,0,0) !important;
+    text-align:center;
+    text-transform:uppercase;
+    cursor:pointer;
+}
+
+section > form input[type=submit]:hover {background:rgb(160,196,218) !important;}
+
+section > form textarea {
+    height:80px;
+    padding-top:10px;
+}
+
+section > form input:hover, section > form textarea:hover {
+    background-color:rgb(255,255,255) !important;
+    outline:none;
+}
+
+section > form input:focus, section > form textarea:focus {
+    background-color:rgb(255,255,255) !important;
+    border-radius:15px;
+    outline:none;
+}
+
+form input::-webkit-input-placeholder, form textarea::-webkit-input-placeholder {color:rgb(90,90,90);}
+form input:-moz-placeholder, form textarea::-webkit-input-placeholder           {color:rgb(90,90,90);}
+form input::placeholder, form textarea::-webkit-input-placeholder               {color:rgb(90,90,90);}
+
+/* footer */
+
+form footer {
+    background:transparent url(/_media/images/logo/logo-form.png) center center no-repeat;
+    width:365px;
+    height:74px;
+    padding-bottom:100px;   
+}

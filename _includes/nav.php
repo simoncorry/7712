@@ -13,7 +13,7 @@
                     <li><a href="#">Location</a></li>
                     <li><a href="#">Floor Plans</a></li>
                     <li><a href="/gallery" class="<?php if($thisPage == 'Gallery') echo'active'; ?>">Gallery</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="/contact" class="<?php if($thisPage == 'Contact') echo'active'; ?>">Contact</a></li>
                 </ul>
             </nav>
             <!-- Logo -->

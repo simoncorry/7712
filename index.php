@@ -28,19 +28,6 @@
         <?php /* GOOGLE PLUS SNIPPET */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/gp-snippet.php"); ?>
         <?php /* LINKS */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/head.php"); ?>  
         
-        <!-- /// PRELOAD  /// -->
-        <script type="text/javascript">        
-            $(document).ready(function() {    
-                $('#preloader').show();
-                $('#controls-wrapper').hide();
-                onload = function() {        
-                    $('#preloader').hide();
-                    $('section').addClass('show');
-                    $('#controls-wrapper').show();
-                }
-            });
-        </script>
-        
         <!-- /// SLIDESHOW /// -->
         <script type="text/javascript">           
             jQuery(function($){
@@ -75,7 +62,6 @@
               
     </head>
     <body>
-        <div id="preloader"></div>
         <section>       	       	
 <?php /* NAV */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/nav.php"); ?>
             <article>

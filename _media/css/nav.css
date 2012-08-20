@@ -16,7 +16,7 @@ section > ul li {
     float:left;
     position:relative;
     background:rgb(255,255,255); /* Fallback */
-    background:rgba(35,31,32,0.1);
+    background:rgba(209,210,213,0.3);
     width:38px;
     height:38px;
     margin-right:12px;
@@ -28,8 +28,8 @@ section > ul li {
     transition:        all 0.3s ease-in-out;
 }
 
-section > ul li:hover {background:rgba(209,210,213,0.90) !important;}
-section > ul li:active {background:rgba(209,210,213,0.90) !important;}
+section > ul li:hover {background:rgba(209,210,213,0.95) !important;}
+section > ul li:active {background:rgba(209,210,213,0.95) !important;}
 
 section > ul li:last-child,
 section > ul li.no-margin {margin-right:0px !important;}

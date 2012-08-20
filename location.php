@@ -13,9 +13,9 @@
         
         <?php /* ERROR */ ini_set('error_reporting', E_ALL); ini_set('display_errors', 0); ?>
         <?php /* TAG */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/tag.php"); ?>
-        <?php /* PAGE */ $thisPage="Home"; ?>
+        <?php /* PAGE */ $thisPage="Location"; ?>
         
-        <title>77 12th - Luxury High-Rise Apartments - Midtown Atlanta</title>
+        <title>77 12th - Location</title>
         <meta name="Author" content="77 12th" />
         <meta name="description" content="77 12th - Luxury High-Rise Apartments - Midtown Atlanta"/>
         <meta name="keywords" content=""/>
@@ -177,29 +177,29 @@
                     </ol>
                     <h2>Groceries</h2>
                     <ol>
-                        <li>Publix</li>
-                        <li>Trader Joe's</li> 
-                        <li>Whole Foods Market</li>
+                        <li class="g">Publix</li>
+                        <li class="g">Trader Joe's</li> 
+                        <li class="g">Whole Foods Market</li>
                     </ol>
                     <h2>Attractions</h2>
                     <ol>
-                        <li>Piedmont Park</li>
-                        <li>Atlanta Botanical Gardens</li> 
-                        <li>The High Museum of Art</li>
-                        <li>Woodruff Arts Center</li>
-                        <li>Atlanta Symphony Orchestra</li>
-                        <li>Alliance Theatre</li>
-                        <li>14th Street Playhouse</li>
-                        <li>Ansley Park Playhouse</li>
-                        <li>Center Stage</li>
-                        <li>Center for Puppetry Arts</li>
-                        <li>Fox Theatre</li>
-                        <li>CB2</li>
-                        <li>Exhale Spa</li>
-                        <li>Loews Atlanta Hotel</li>
-                        <li>Georgia Institute of Technology</li>
-                        <li>Atlantic Station</li>
-                        <li>Westside (West Midtown)</li>                        
+                        <li class="a">Piedmont Park</li>
+                        <li class="a">Atlanta Botanical Gardens</li> 
+                        <li class="a">The High Museum of Art</li>
+                        <li class="a">Woodruff Arts Center</li>
+                        <li class="a">Atlanta Symphony Orchestra</li>
+                        <li class="a">Alliance Theatre</li>
+                        <li class="a">14th Street Playhouse</li>
+                        <li class="a">Ansley Park Playhouse</li>
+                        <li class="a">Center Stage</li>
+                        <li class="a">Center for Puppetry Arts</li>
+                        <li class="a">Fox Theatre</li>
+                        <li class="a">CB2</li>
+                        <li class="a">Exhale Spa</li>
+                        <li class="a">Loews Atlanta Hotel</li>
+                        <li class="a">Georgia Institute of Technology</li>
+                        <li class="a">Atlantic Station</li>
+                        <li class="a">Westside (West Midtown)</li>                        
                     </ol>
                 </div>
             </article>

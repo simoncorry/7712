@@ -11,7 +11,7 @@
                     <li><a href="/amenities" class="<?php if($thisPage == 'Amenities') echo'active'; ?>" >Amenities</a></li>
                     <li><a href="/features"  class="<?php if($thisPage == 'Features') echo'active'; ?>"  >Features</a></li>
                     <li><a href="/location"  class="<?php if($thisPage == 'Location') echo'active'; ?>"  >Location</a></li>
-                    <li><a href="#">Floor Plans</a></li>
+                    <li><a href="/plans"     class="<?php if($thisPage == 'Plans') echo'active'; ?>"     >Floor Plans</a></li>
                     <li><a href="/gallery"   class="<?php if($thisPage == 'Gallery') echo'active'; ?>"   >Gallery</a></li>
                     <li><a href="/contact"   class="<?php if($thisPage == 'Contact') echo'active'; ?>"   >Contact</a></li>
                 </ul>
@@ -22,5 +22,5 @@
             </header>
             <!-- Sub Logo -->
             <aside>
-                <a href="http://www.12thandmidtown.com/" title="12th and Midtown" target="_blank"><h1></h1></a>
+                <a href="http://www.12thandmidtown.com/" target="_blank"><h1></h1></a>
             </aside>

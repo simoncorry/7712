@@ -39,9 +39,13 @@ section > article > div > h2 {
 }
 
 section > article > div > p {
-    font:italic lighter 16px/22px Georgia, serif;
+    position:absolute;
+    top:50%;
+    font:italic lighter 20px/28px Georgia, serif;
     color:#fff;
     text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
+    height:140px;
+    margin-top:-70px;   
 }
 
 section > article > div > ul {list-style-type:disc !important;}
@@ -184,6 +188,256 @@ section > article > div.location ol li {
     margin-left:26px;
     font:italic normal 13.5px/18px Georgia, serif;
     color:#f9f9f9;
+    text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
+}
+
+section > article > div.location ol li.g {color:#8eb7ce;}
+section > article > div.location ol li.a {color:#b58358;}
+
+/* Plans */
+
+section > article.plans {
+    z-index:1;
+    position:absolute;
+    left:360px;
+    top:70px;
+    background:transparent;
+    width:570px;
+    height:690px;
+    border-radius:0px;
+}
+
+section > article > div.plans { 
+    position:absolute;
+    top:0px !important;
+    left:0px !important;  
+    width:570px !important;
+    height:690px !important;
+    padding:0px !important;
+    margin:0px !important;
+}
+
+/* Plate */
+
+div.plate-base {
+    position:absolute;
+    right:0;
+    background:transparent url(/_media/images/plans/floorplate-1a.png) no-repeat;
+    background-size:100% !important;
+    width:380px;
+}
+
+div.plate-1b {
+    z-index:9999;
+    position:absolute;
+    left:245px !important;
+    top:70px !important;
+    background:transparent;
+    width:15px !important;
+    height:25px !important;
+}
+
+div.plate-1b-2 {
+    z-index:9999;
+    position:absolute;
+    left:385px !important;
+    top:70px !important;
+    background:transparent;
+    width:15px !important;
+    height:25px !important;
+}
+
+div.plate-1c {
+    z-index:9999;
+    position:absolute;
+    left:265px !important;
+    top:15px !important;
+    background:transparent;
+    width:15px !important;
+    height:30px !important;
+}
+
+div.plate-1c-2 {
+    z-index:9999;
+    position:absolute;
+    left:365px !important;
+    top:15px !important;
+    background:transparent;
+    width:15px !important;
+    height:30px !important;
+}
+
+div.plate-1d {
+    z-index:9999;
+    position:absolute;
+    left:326px !important;
+    top:75px !important;
+    background:transparent;
+    width:30px !important;
+    height:25px !important;
+}
+
+div.plate-1e {
+    z-index:9999;
+    position:absolute;
+    left:286px !important;
+    top:75px !important;
+    background:transparent;
+    width:30px !important;
+    height:25px !important;
+}
+
+div.plate-1f {
+    z-index:9999;
+    position:absolute;
+    left:313px !important;
+    top:15px !important;
+    background:transparent;
+    width:20px !important;
+    height:30px !important;
+}
+
+div.plate-1g {
+    z-index:9999;
+    position:absolute;
+    left:283px !important;
+    top:15px !important;
+    background:transparent;
+    width:20px !important;
+    height:30px !important;
+}
+
+div.plate-1g-2 {
+    z-index:9999;
+    position:absolute;
+    left:343px !important;
+    top:15px !important;
+    background:transparent;
+    width:20px !important;
+    height:30px !important;
+}
+
+div.plate-1h {
+    z-index:9999;
+    position:absolute;
+    left:272px !important;
+    top:58px !important;
+    background:transparent;
+    width:15px !important;
+    height:40px !important;
+}
+
+div.plate-1h-2 {
+    z-index:9999;
+    position:absolute;
+    left:358px !important;
+    top:58px !important;
+    background:transparent;
+    width:15px !important;
+    height:40px !important;
+}
+
+div.plate-2a {
+    z-index:9999;
+    position:absolute;
+    left:200px !important;
+    top:68px !important;
+    background:transparent;
+    width:35px !important;
+    height:32px !important;
+}
+
+div.plate-2a-2 {
+    z-index:9999;
+    position:absolute;
+    left:410px !important;
+    top:68px !important;
+    background:transparent;
+    width:35px !important;
+    height:32px !important;
+}
+
+div.plate-2c {
+    z-index:9999;
+    position:absolute;
+    left:195px !important;
+    top:6px !important;
+    background:transparent;
+    width:35px !important;
+    height:32px !important;
+}
+
+div.plate-2c-2 {
+    z-index:9999;
+    position:absolute;
+    left:416px !important;
+    top:6px !important;
+    background:transparent;
+    width:35px !important;
+    height:32px !important;
+}
+
+div.plate-studio {
+    z-index:9999;
+    position:absolute;
+    left:195px !important;
+    top:48px !important;
+    background:transparent;
+    width:35px !important;
+    height:15px !important;
+}
+
+div.plate-studio-2 {
+    z-index:9999;
+    position:absolute;
+    left:416px !important;
+    top:48px !important;
+    background:transparent;
+    width:35px !important;
+    height:15px !important;
+}
+
+/* Unit */
+
+div.unit-base {
+    z-index:1;
+    position:absolute;
+    left:0px;
+    top:250px;
+    background:transparent url(/_media/images/plans/1a.png) no-repeat;
+    background-size:100% !important;
+    width:750px;
+    height:400px;
+    padding:0px !important;
+    margin:0px !important;
+    border-radius:0px !important;
+}
+
+/* Info */
+
+div.info {
+    z-index:1;
+    position:absolute;
+    left:195px;
+    top:160px;
+    background:transparent;
+    width:400px;
+    padding:0px !important;
+    margin:0px !important;
+    border-radius:0px !important;
+}
+
+div.info h2 {
+    font:italic normal 20px/26px Georgia, serif;
+    color:#fff;
+    text-transform:uppercase;
+    text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
+}
+
+div.info p {
+    font:italic normal 13px/18px Georgia, serif;
+    color:#fff;
+    text-transform:uppercase;
     text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
 }
 

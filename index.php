@@ -39,13 +39,32 @@
                     // Components
                     slide_links:'blank',         // Individual links for each slide (Options: false, 'num', 'name', 'blank')                            
                     slides:[                     // Slideshow Images
-                        {image : '/_media/images/slides/home/01.jpg', thumb : '/_media/images/slides/home/01-thumb.jpg'},
+                        {image : '/_media/images/slides/gallery/01.jpg', thumb : '/_media/images/slides/home/01-thumb.jpg'},
                         {image : '/_media/images/slides/home/02.jpg', thumb : '/_media/images/slides/home/02-thumb.jpg'},
                         {image : '/_media/images/slides/home/03.jpg', thumb : '/_media/images/slides/home/03-thumb.jpg'},
                         {image : '/_media/images/slides/home/04.jpg', thumb : '/_media/images/slides/home/04-thumb.jpg'},
                         {image : '/_media/images/slides/home/05.jpg', thumb : '/_media/images/slides/home/05-thumb.jpg'},
                         {image : '/_media/images/slides/home/06.jpg', thumb : '/_media/images/slides/home/06-thumb.jpg'},
-                        {image : '/_media/images/slides/home/07.jpg', thumb : '/_media/images/slides/home/07-thumb.jpg'}
+                        {image : '/_media/images/slides/home/07.jpg', thumb : '/_media/images/slides/home/07-thumb.jpg'},
+                        {image : '/_media/images/slides/home/08.jpg', thumb : '/_media/images/slides/home/08-thumb.jpg'},
+                        {image : '/_media/images/slides/home/09.jpg', thumb : '/_media/images/slides/home/09-thumb.jpg'},
+                        {image : '/_media/images/slides/home/10.jpg', thumb : '/_media/images/slides/home/10-thumb.jpg'},
+                        {image : '/_media/images/slides/home/11.jpg', thumb : '/_media/images/slides/home/11-thumb.jpg'},
+                        {image : '/_media/images/slides/home/12.jpg', thumb : '/_media/images/slides/home/12-thumb.jpg'},
+                        {image : '/_media/images/slides/home/13.jpg', thumb : '/_media/images/slides/home/13-thumb.jpg'},
+                        {image : '/_media/images/slides/home/14.jpg', thumb : '/_media/images/slides/home/14-thumb.jpg'},
+                        {image : '/_media/images/slides/home/15.jpg', thumb : '/_media/images/slides/home/15-thumb.jpg'},
+                        {image : '/_media/images/slides/home/16.jpg', thumb : '/_media/images/slides/home/16-thumb.jpg'},
+                        {image : '/_media/images/slides/home/17.jpg', thumb : '/_media/images/slides/home/17-thumb.jpg'},
+                        {image : '/_media/images/slides/home/18.jpg', thumb : '/_media/images/slides/home/18-thumb.jpg'},
+                        {image : '/_media/images/slides/home/19.jpg', thumb : '/_media/images/slides/home/19-thumb.jpg'},
+                        {image : '/_media/images/slides/home/20.jpg', thumb : '/_media/images/slides/home/20-thumb.jpg'},
+                        {image : '/_media/images/slides/home/21.jpg', thumb : '/_media/images/slides/home/21-thumb.jpg'},
+                        {image : '/_media/images/slides/home/22.jpg', thumb : '/_media/images/slides/home/22-thumb.jpg'},
+                        {image : '/_media/images/slides/home/23.jpg', thumb : '/_media/images/slides/home/23-thumb.jpg'},
+                        {image : '/_media/images/slides/home/24.jpg', thumb : '/_media/images/slides/home/24-thumb.jpg'},
+                        {image : '/_media/images/slides/home/25.jpg', thumb : '/_media/images/slides/home/25-thumb.jpg'},
+                        {image : '/_media/images/slides/home/26.jpg', thumb : '/_media/images/slides/home/26-thumb.jpg'}
                     ]
                 });
             });            
@@ -77,7 +96,7 @@
 <?php /* NAV */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/nav.php"); ?>
             <article>
                 <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Sublime &amp; graceful. High-rise apartment living in the heart of Midtown Atlanta. Immerse yourself in the best the city has to offer. It's life, simplified.</p>
                 </div>
             </article>
 <?php /* FOOTER */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/footer.php"); ?> 

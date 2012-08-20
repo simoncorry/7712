@@ -71,11 +71,7 @@
                         {image : '/_media/images/slides/gallery/30.jpg', thumb : '/_media/images/slides/gallery/30-thumb.jpg'},
                         {image : '/_media/images/slides/gallery/31.jpg', thumb : '/_media/images/slides/gallery/31-thumb.jpg'},
                         {image : '/_media/images/slides/gallery/32.jpg', thumb : '/_media/images/slides/gallery/32-thumb.jpg'},
-                        {image : '/_media/images/slides/gallery/33.jpg', thumb : '/_media/images/slides/gallery/33-thumb.jpg'},
-                        {image : '/_media/images/slides/gallery/34.jpg', thumb : '/_media/images/slides/gallery/34-thumb.jpg'},
-                        {image : '/_media/images/slides/gallery/35.jpg', thumb : '/_media/images/slides/gallery/35-thumb.jpg'},
-                        {image : '/_media/images/slides/gallery/36.jpg', thumb : '/_media/images/slides/gallery/36-thumb.jpg'},
-                        {image : '/_media/images/slides/gallery/37.jpg', thumb : '/_media/images/slides/gallery/37-thumb.jpg'}
+                        {image : '/_media/images/slides/gallery/33.jpg', thumb : '/_media/images/slides/gallery/33-thumb.jpg'}
                     ]
                 });
             });            
@@ -99,6 +95,7 @@
             <article class="gallery">
                 <h2>Videos</h2>
                 <div class="gallery">
+                    <!--
                     <div>
                         <object style="width:210px;height:120px;">
                             <param name="movie" value="http://static.issuu.com/webembed/viewers/style1/v2/IssuuReader.swf?mode=mini&amp;documentId=120516040250-3b5bd3a7c8404b86b1fc36d0876f94b4" />
@@ -108,20 +105,12 @@
                             <embed src="http://static.issuu.com/webembed/viewers/style1/v2/IssuuReader.swf" type="application/x-shockwave-flash" allowfullscreen="true" menu="false" />
                         </object>
                     </div>
+                    -->
                     <div>
-                        <iframe style="border-radius:10px;" src="http://player.vimeo.com/video/25884800" width="210" height="120" seamless="seamless" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                        <iframe src="http://player.vimeo.com/video/46778598" width="210" height="120" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                     </div>
                     <div>
-                        <object style="width:210px;height:120px;">
-                            <param name="movie" value="http://static.issuu.com/webembed/viewers/style1/v2/IssuuReader.swf?mode=mini&amp;documentId=120516040250-3b5bd3a7c8404b86b1fc36d0876f94b4" />
-                            <param name="allowfullscreen" value="true"/>
-                            <param name="menu" value="false"/>
-                            <param name="bgcolor" value="#221f1f" />
-                            <embed src="http://static.issuu.com/webembed/viewers/style1/v2/IssuuReader.swf" type="application/x-shockwave-flash" allowfullscreen="true" menu="false" />
-                        </object>
-                    </div>
-                    <div>
-                        <iframe style="border-radius:10px;" src="http://player.vimeo.com/video/25884800" width="210" height="120" seamless="seamless" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                        <iframe src="http://player.vimeo.com/video/44549452" width="210" height="120" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                     </div>
                 </div>
             </article>

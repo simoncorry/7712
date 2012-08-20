@@ -6,6 +6,7 @@ section > footer {
     z-index:1; 
     margin-bottom:10px;
     height:21px;
+    opacity:0.6;
 }
 
 section > footer > div {
@@ -31,5 +32,4 @@ section > footer > div > a.logo {
     width:30px;
     height:21px;
     margin-right:30px;
-    opacity:0.6;
 }

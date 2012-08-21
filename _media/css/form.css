@@ -25,7 +25,7 @@ section > form h2 {
 }
 
 section > form p {
-    font:italic lighter 14px/20px Georgia, serif;
+    font:normal lighter 14px/20px Georgia, serif;
     color:#fff;
     text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
     padding-bottom:20px;
@@ -117,9 +117,36 @@ form input::placeholder, form textarea::-webkit-input-placeholder               
 
 /* footer */
 
-form footer {
-    background:transparent url(/_media/images/logo/logo-form.png) center center no-repeat;
+form > footer {
     width:365px;
     height:74px;
     padding-bottom:200px;   
+}
+
+form > footer a.logo-northwester {
+    float:left;
+    display:block;
+    background:url(/_media/images/logo/logo-northwester.png) center center no-repeat;
+    background-size:cover !important;
+    width:116px;
+    height:74px;
+    margin-right:26px;
+}
+
+form > footer a.logo-daniel {
+    float:left;
+    display:block;
+    background:url(/_media/images/logo/logo-daniel.png) center center no-repeat;
+    background-size:cover !important;
+    width:87px;
+    height:74px;
+}
+
+form > footer a.logo-selig {
+    float:right;
+    display:block;
+    background:url(/_media/images/logo/logo-selig.png) center center no-repeat;
+    background-size:cover !important;
+    width:100px;
+    height:74px;
 }

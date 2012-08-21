@@ -103,7 +103,11 @@
                 <textarea placeholder="Comments" class="placeholder" name="comments" id="comments"></textarea>
                 <input type="submit" name="submit" class="button" />
                 <div class="group"></div>
-                <footer></footer>
+                <footer>
+                    <a href="http://www.northwesternmutual.com/" target="_blank" class="logo-northwester"></a>
+                    <a href="http://www.danielcorp.com/" target="_blank" class="logo-daniel"></a>
+                    <a href="http://www.seligenterprises.com/" target="_blank" class="logo-selig"></a>    
+                </footer>
             </form>
 <?php /* FOOTER */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/footer.php"); ?>            
         </section>     

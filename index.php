@@ -39,7 +39,7 @@
                     // Components
                     slide_links:'blank',         // Individual links for each slide (Options: false, 'num', 'name', 'blank')                            
                     slides:[                     // Slideshow Images
-                        {image : '/_media/images/slides/gallery/01.jpg', thumb : '/_media/images/slides/home/01-thumb.jpg'},
+                        {image : '/_media/images/slides/home/01.jpg', thumb : '/_media/images/slides/home/01-thumb.jpg'},
                         {image : '/_media/images/slides/home/02.jpg', thumb : '/_media/images/slides/home/02-thumb.jpg'},
                         {image : '/_media/images/slides/home/03.jpg', thumb : '/_media/images/slides/home/03-thumb.jpg'},
                         {image : '/_media/images/slides/home/04.jpg', thumb : '/_media/images/slides/home/04-thumb.jpg'},
@@ -95,7 +95,7 @@
         <section>       	       	
 <?php /* NAV */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/nav.php"); ?>
             <article>
-                <div>
+                <div style="overflow-y:hidden !important;">
                     <p>Sublime &amp; graceful. High-rise apartment living in the heart of Midtown Atlanta. Immerse yourself in the best the city has to offer. It's life, simplified.</p>
                 </div>
             </article>

@@ -191,8 +191,8 @@ section > article > div.location ol li {
     text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
 }
 
-section > article > div.location ol li.g {color:#8eb7ce;}
-section > article > div.location ol li.a {color:#b58358;}
+section > article > div.location ol li.g, .g {color:#8eb7ce;}
+section > article > div.location ol li.a, .a {color:#b58358;}
 
 /* Plans */
 
@@ -468,6 +468,6 @@ section > article > div.contact {
     width:180px;
     height:225px;
     margin:10px;
-    overflow-y:scroll;
+    overflow-y:hidden;
     overflow-x:hidden;
 }

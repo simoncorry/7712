@@ -175,13 +175,13 @@
                         <li>Mary Mac's Tea Room</li>
                         <li>Fins</li>                      
                     </ol>
-                    <h2>Groceries</h2>
+                    <h2 class="g">Groceries</h2>
                     <ol>
                         <li class="g">Publix</li>
                         <li class="g">Trader Joe's</li> 
                         <li class="g">Whole Foods Market</li>
                     </ol>
-                    <h2>Attractions</h2>
+                    <h2 class="a">Attractions</h2>
                     <ol>
                         <li class="a">Piedmont Park</li>
                         <li class="a">Atlanta Botanical Gardens</li> 
@@ -205,7 +205,7 @@
             </article>
             <div class="map-wrapper">
                 <div class="map">
-                    <img src="/_media/images/map/map.png" alt="" width="1400" height="1652" />
+                    <img src="/_media/images/map/map.jpg" alt="" width="1400" height="1652" />
                 </div>
             </div>
 <?php /* FOOTER */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/footer.php"); ?> 

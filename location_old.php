@@ -70,15 +70,25 @@
         </script>
         
         <!-- /// MAP /// -->       
-       
-        
-        <!-- /// MAP /// -->
         <script type="text/javascript">
-            $(function() {
-                $(function() {
-                    $('.my_frame').magnifyingFrame();
-                });
-            });
+        $(document).ready(function() {
+            $('.map').mobilymap({
+		        position: '300 500', // map position after loading - 'X Y', 'center', 'top left', 'top right', 'bottom left', 'bottom right'
+		        popupClass: 'bubble',
+		        markerClass: 'point',
+		        popup: true, // show popup on marker click - true/false
+		        cookies: false, // remember last map position - true/false
+		        caption: true, // show caption - true/false
+		        setCenter: true, // sets the map view to the center on marker click
+		        navigation: true, // display buttons to pan in four directions
+		        navSpeed: 1000, // speed of panning map (higher value for slow panning)
+		        navBtnClass: 'navBtn',
+		        outsideButtons: false, // selector, only anchors eg. '.map_buttons a'
+		        onMarkerClick: function(){}, // call the function on marker click (popup must be disabled)
+		        onPopupClose: function(){}, // call the function after popup closing
+		        onMapLoad: function(){} // call the function after loading map
+		    });
+		  });
         </script>
               
     </head>
@@ -193,8 +203,10 @@
                     </ol>
                 </div>
             </article>
-            <div class="map">
-                <img src="/_media/images/map/map.jpg" alt="" width="500" height="553" class="my_frame" />
+            <div class="map-wrapper">
+                <div class="map">
+                    <img src="/_media/images/map/map.jpg" alt="" width="1400" height="1652" />
+                </div>
             </div>
 <?php /* FOOTER */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/footer.php"); ?> 
         </section>             

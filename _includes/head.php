@@ -27,7 +27,9 @@
         <script type="text/javascript" src="/_media/js/modernizr-2.5.3.min.js"></script>    
         <script type="text/javascript" src="/_media/js/jquery-footer.js"></script>
         <script type="text/javascript" src="/_media/js/links.js"></script> 
-        <script type="text/javascript" src="/_media/js/mobilymap.js"></script>    
+        <script type="text/javascript" src="/_media/js/mobilymap.js"></script>
+        <script type="text/javascript" src="/_media/js/jquery.magnifyingframe.js"></script>
+            
         <?php if($thisPage == "Home" || $thisPage == "Amenities" || $thisPage == "Features" || $thisPage == "Location" || $thisPage == "Gallery")
             echo '<script type="text/javascript" src="/_media/js/supersized/supersized.3.2.7.min.js"></script>
         <script type="text/javascript" src="/_media/js/supersized/supersized.shutter.min.js"></script>

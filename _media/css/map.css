@@ -2,7 +2,7 @@
 
 /* /// MAP /// */
 
-section > div.map-wrapper {
+section > div.map {
     z-index:1;
     position:absolute;
     left:410px;
@@ -12,14 +12,6 @@ section > div.map-wrapper {
     width:500px;
     height:553px;
     padding:10px;
-    border-radius:10px;
-}
-
-section > div.map-wrapper > div.map {
-    background:rgb(35,31,32); /* Fallback */
-    background:rgba(35,31,32,0.7);
-    width:500px;
-    height:553px;
     border-radius:10px;
 }
 

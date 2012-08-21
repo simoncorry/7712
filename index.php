@@ -94,8 +94,8 @@
     <body>
         <section>       	       	
 <?php /* NAV */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/nav.php"); ?>
-            <article>
-                <div style="overflow-y:hidden !important;">
+            <article class="home">
+                <div class="home">
                     <p>Sublime &amp; graceful. High-rise apartment living in the heart of Midtown Atlanta. Immerse yourself in the best the city has to offer. It's life, simplified.</p>
                 </div>
             </article>

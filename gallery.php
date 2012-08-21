@@ -92,7 +92,7 @@
     <body>
         <section>       	       	
 <?php /* NAV */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/nav.php"); ?>
-            <article class="gallery">
+            <article class="gallery" onclick="">
                 <h2>Videos</h2>
                 <div class="gallery">
                     <!--

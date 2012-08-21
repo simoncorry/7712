@@ -43,28 +43,28 @@
         <script type="text/javascript">
         $(document).ready(function() {
 		    /* 1b */
-		    $('div.plate-1b').mouseenter(function() {              
+		    $('div.plate-1b').mouseover(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1b.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1b.png)");
                 
                 $('div.info-1').css("display", "none"); 
                 $('div.info-2').css("display", "block"); 
             });
-            $('div.plate-1b').mouseleave(function() {              
+            $('div.plate-1b').mouseout(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1a.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1a.png)");
                 
                 $('div.info-2').css("display", "none"); 
                 $('div.info-1').css("display", "block"); 
             });
-            $('div.plate-1b-2').mouseenter(function() {              
+            $('div.plate-1b-2').mouseover(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1b.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1b.png)"); 
                 
                 $('div.info-1').css("display", "none"); 
                 $('div.info-2').css("display", "block"); 
             });
-            $('div.plate-1b-2').mouseleave(function() {              
+            $('div.plate-1b-2').mouseout(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1a.png)"); 
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1a.png)");
                 
@@ -72,28 +72,28 @@
                 $('div.info-1').css("display", "block");
             });
             /* 1c */
-		    $('div.plate-1c').mouseenter(function() {              
+		    $('div.plate-1c').mouseover(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1c.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1c.png)");
                 
                 $('div.info-1').css("display", "none"); 
                 $('div.info-3').css("display", "block"); 
             });
-            $('div.plate-1c').mouseleave(function() {              
+            $('div.plate-1c').mouseout(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1a.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1a.png)");
                 
                 $('div.info-3').css("display", "none"); 
                 $('div.info-1').css("display", "block"); 
             });
-            $('div.plate-1c-2').mouseenter(function() {              
+            $('div.plate-1c-2').mouseover(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1c.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1c.png)"); 
                 
                 $('div.info-1').css("display", "none"); 
                 $('div.info-3').css("display", "block"); 
             });
-            $('div.plate-1c-2').mouseleave(function() {              
+            $('div.plate-1c-2').mouseout(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1a.png)"); 
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1a.png)");
                 
@@ -101,14 +101,14 @@
                 $('div.info-1').css("display", "block"); 
             });
             /* 1d */
-		    $('div.plate-1d').mouseenter(function() {              
+		    $('div.plate-1d').mouseover(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1d.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1d.png)");
                 
                 $('div.info-1').css("display", "none"); 
                 $('div.info-4').css("display", "block"); 
             });
-            $('div.plate-1d').mouseleave(function() {              
+            $('div.plate-1d').mouseout(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1a.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1a.png)");
                 
@@ -116,14 +116,14 @@
                 $('div.info-1').css("display", "block"); 
             });
             /* 1e */
-		    $('div.plate-1e').mouseenter(function() {              
+		    $('div.plate-1e').mouseover(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1e.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1e.png)");
                 
                 $('div.info-1').css("display", "none"); 
                 $('div.info-5').css("display", "block"); 
             });
-            $('div.plate-1e').mouseleave(function() {              
+            $('div.plate-1e').mouseout(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1a.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1a.png)");
                 
@@ -131,14 +131,14 @@
                 $('div.info-1').css("display", "block"); 
             });
             /* 1f */
-		    $('div.plate-1f').mouseenter(function() {              
+		    $('div.plate-1f').mouseover(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1f.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1f.png)");
                 
                 $('div.info-1').css("display", "none"); 
                 $('div.info-6').css("display", "block"); 
             });
-            $('div.plate-1f').mouseleave(function() {              
+            $('div.plate-1f').mouseout(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1a.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1a.png)");
                 
@@ -146,28 +146,28 @@
                 $('div.info-1').css("display", "block"); 
             });
             /* 1g */
-		    $('div.plate-1g').mouseenter(function() {              
+		    $('div.plate-1g').mouseover(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1g.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1g.png)");
                 
                 $('div.info-1').css("display", "none"); 
                 $('div.info-7').css("display", "block"); 
             });
-            $('div.plate-1g').mouseleave(function() {              
+            $('div.plate-1g').mouseout(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1a.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1a.png)");
                 
                 $('div.info-7').css("display", "none"); 
                 $('div.info-1').css("display", "block"); 
             });
-            $('div.plate-1g-2').mouseenter(function() {              
+            $('div.plate-1g-2').mouseover(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1g.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1g.png)");
                 
                 $('div.info-1').css("display", "none"); 
                 $('div.info-7').css("display", "block"); 
             });
-            $('div.plate-1g-2').mouseleave(function() {              
+            $('div.plate-1g-2').mouseout(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1a.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1a.png)");
                 
@@ -175,28 +175,28 @@
                 $('div.info-1').css("display", "block"); 
             });
             /* 1h */
-		    $('div.plate-1h').mouseenter(function() {              
+		    $('div.plate-1h').mouseover(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1h.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1h.png)");
                 
                 $('div.info-1').css("display", "none"); 
                 $('div.info-8').css("display", "block"); 
             });
-            $('div.plate-1h').mouseleave(function() {              
+            $('div.plate-1h').mouseout(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1a.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1a.png)");
                 
                 $('div.info-8').css("display", "none"); 
                 $('div.info-1').css("display", "block"); 
             });
-            $('div.plate-1h-2').mouseenter(function() {              
+            $('div.plate-1h-2').mouseover(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1h.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1h.png)");
                 
                 $('div.info-1').css("display", "none"); 
                 $('div.info-8').css("display", "block"); 
             });
-            $('div.plate-1h-2').mouseleave(function() {              
+            $('div.plate-1h-2').mouseout(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1a.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1a.png)");
                 
@@ -204,28 +204,28 @@
                 $('div.info-1').css("display", "block"); 
             });
             /* 2A */
-		    $('div.plate-2a').mouseenter(function() {              
+		    $('div.plate-2a').mouseover(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-2a.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-2a.png)");
                 
                 $('div.info-1').css("display", "none"); 
                 $('div.info-9').css("display", "block"); 
             });
-            $('div.plate-2a').mouseleave(function() {              
+            $('div.plate-2a').mouseout(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1a.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1a.png)");
                 
                 $('div.info-9').css("display", "none"); 
                 $('div.info-1').css("display", "block"); 
             });
-            $('div.plate-2a-2').mouseenter(function() {              
+            $('div.plate-2a-2').mouseover(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-2a.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-2a.png)");
                 
                 $('div.info-1').css("display", "none"); 
                 $('div.info-9').css("display", "block"); 
             });
-            $('div.plate-2a-2').mouseleave(function() {              
+            $('div.plate-2a-2').mouseout(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1a.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1a.png)");
                 
@@ -233,28 +233,28 @@
                 $('div.info-1').css("display", "block"); 
             });
             /* 2C */
-		    $('div.plate-2c').mouseenter(function() {              
+		    $('div.plate-2c').mouseover(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-2c.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-2c.png)");
                 
                 $('div.info-1').css("display", "none"); 
                 $('div.info-10').css("display", "block"); 
             });
-            $('div.plate-2c').mouseleave(function() {              
+            $('div.plate-2c').mouseout(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1a.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1a.png)");
                 
                 $('div.info-10').css("display", "none"); 
                 $('div.info-1').css("display", "block"); 
             });
-            $('div.plate-2c-2').mouseenter(function() {              
+            $('div.plate-2c-2').mouseover(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-2c.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-2c.png)");
                 
                 $('div.info-1').css("display", "none"); 
                 $('div.info-10').css("display", "block"); 
             });
-            $('div.plate-2c-2').mouseleave(function() {              
+            $('div.plate-2c-2').mouseout(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1a.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1a.png)");
                 
@@ -262,28 +262,28 @@
                 $('div.info-1').css("display", "block"); 
             });
             /* 2C */
-		    $('div.plate-studio').mouseenter(function() {              
+		    $('div.plate-studio').mouseover(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-st.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-st.png)");
                 
                 $('div.info-1').css("display", "none"); 
                 $('div.info-11').css("display", "block"); 
             });
-            $('div.plate-studio').mouseleave(function() {              
+            $('div.plate-studio').mouseout(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1a.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1a.png)");
                 
                 $('div.info-11').css("display", "none"); 
                 $('div.info-1').css("display", "block"); 
             });
-            $('div.plate-studio-2').mouseenter(function() {              
+            $('div.plate-studio-2').mouseover(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-st.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-st.png)");
                 
                 $('div.info-1').css("display", "none"); 
                 $('div.info-11').css("display", "block"); 
             });
-            $('div.plate-studio-2').mouseleave(function() {              
+            $('div.plate-studio-2').mouseout(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1a.png)");
                 $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1a.png)");
                 
@@ -300,6 +300,7 @@
             <article class="plans">
                 <div class="plans">
                     <!-- Plate -->
+                    <div class="plate-base-main"></div>
                     <div class="plate-base"></div>
                     <div class="plate-1b"></div>
                     <div class="plate-1b-2"></div>
@@ -323,7 +324,7 @@
                     <!-- Info -->
                     <div class="info info-1">
                         <h2>Unit 1A</h2>
-                        <p>1A ONE BEDROOM / ONE BATH 7<br />14 SF + 66 SF BALCONY</p>
+                        <p>1A ONE BEDROOM / ONE BATH<br />714 SF + 66 SF BALCONY</p>
                     </div>
                     <div class="info info-2" style="display:none;">
                         <h2>Unit 1B</h2>

@@ -31,7 +31,7 @@ section > article > div {
 }
 
 section > article > div > h2 {
-    font:italic normal 16px/20px Georgia, serif;
+    font:normal 16px/20px Georgia, serif;
     color:#fff;
     text-transform:uppercase;
     text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
@@ -41,24 +41,25 @@ section > article > div > h2 {
 section > article > div > p {
     position:absolute;
     top:50%;
-    font:italic lighter 20px/28px Georgia, serif;
+    font:normal lighter 17px/26px Georgia, serif;
     color:#fff;
     text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
     height:140px;
+    padding-top:5px;
     margin-top:-70px;   
 }
 
 section > article > div > ul {list-style-type:disc !important;}
 
 section > article > div > ul li {
-    font:italic normal 13.5px/18px Georgia, serif;
+    font:normal 13.5px/18px Georgia, serif;
     color:#f9f9f9;
     text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
     margin:8px 0 8px 20px;    
 }
 
 section > article > div > ul li a {
-    font:italic lighter 12px/12px Georgia, serif;
+    font:normal lighter 12px/12px Georgia, serif;
     color:rgb(160,196,218);
     text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
     text-transform:uppercase;
@@ -78,6 +79,32 @@ section > article > div div {
     border-radius:5px !important;
     padding:5px;
     margin:10px 0;
+}
+
+/* Home */
+
+section > article.home {
+    z-index:1;
+    position:absolute;
+    left:475px;
+    top:75px;
+    background:rgb(35,31,32); /* Fallback */
+    background:rgba(35,31,32,0.7);
+    width:340px;
+    height:340px;
+    border-radius:210px;
+}
+
+section > article > div.home {    
+    position:absolute;
+    left:50%;
+    top:50%;
+    width:240px;
+    height:260px;
+    padding-right:10px;
+    margin:-130px 0 0 -120px;
+    overflow-y:hidden;
+    overflow-x:hidden;
 }
 
 /* Gallery */
@@ -113,7 +140,7 @@ section > article.gallery:hover {
 }
 
 section > article.gallery > h2 {
-    font:italic normal 18px/18px Georgia, serif;
+    font:normal 18px/18px Georgia, serif;
     color:#fff;
     text-transform:uppercase;
     text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
@@ -186,7 +213,7 @@ section > article > div.location ol {
 section > article > div.location ol li {
     padding-bottom:8px;
     margin-left:26px;
-    font:italic normal 13.5px/18px Georgia, serif;
+    font:normal 13.5px/18px Georgia, serif;
     color:#f9f9f9;
     text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
 }
@@ -205,6 +232,7 @@ section > article.plans {
     width:570px;
     height:690px;
     border-radius:0px;
+    overflow:hidden;
 }
 
 section > article > div.plans { 
@@ -215,9 +243,18 @@ section > article > div.plans {
     height:690px !important;
     padding:0px !important;
     margin:0px !important;
+    overflow:hidden;
 }
 
 /* Plate */
+
+div.plate-base-main {
+    position:absolute;
+    right:0;
+    background:transparent url(/_media/images/plans/floorplate-base.png) no-repeat;
+    background-size:100% !important;
+    width:380px;
+}
 
 div.plate-base {
     position:absolute;
@@ -428,14 +465,14 @@ div.info {
 }
 
 div.info h2 {
-    font:italic normal 20px/26px Georgia, serif;
+    font:normal 20px/26px Georgia, serif;
     color:#fff;
     text-transform:uppercase;
     text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
 }
 
 div.info p {
-    font:italic normal 13px/18px Georgia, serif;
+    font:normal 13px/18px Georgia, serif;
     color:#fff;
     text-transform:uppercase;
     text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;

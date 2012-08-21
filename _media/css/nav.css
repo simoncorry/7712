@@ -77,7 +77,7 @@ section > nav > ul {
 }
 
 section > nav > ul li a {
-    font:italic bold 14px/22px Georgia, serif;
+    font:normal bold 14px/22px Georgia, serif;
     color:#fff;
     text-transform:uppercase;
     text-decoration:none;

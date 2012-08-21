@@ -52,51 +52,51 @@ a:focus,a:active {outline:none;}
     font-style:normal;
 }
 
-/* Chronicle Condensed Semiitalic */
+/* Chronicle Condensed Seminormal */
 @font-face {
-    font-family:'chronicledeckcond-semiitalic';
-    src:url('/_media/fonts/chronicledeckcond-semiitalic.eot');
-    src:url('/_media/fonts/chronicledeckcond-semiitalic.eot?#iefix') format('embedded-opentype'),
-        url('/_media/fonts/chronicledeckcond-semiitalic.woff') format('woff'),
-        url('/_media/fonts/chronicledeckcond-semiitalic.ttf') format('truetype'),
-        url('/_media/fonts/chronicledeckcond-semiitalic.svg#chronicledeckcond-semiitalic') format('svg');
+    font-family:'chronicledeckcond-seminormal';
+    src:url('/_media/fonts/chronicledeckcond-seminormal.eot');
+    src:url('/_media/fonts/chronicledeckcond-seminormal.eot?#iefix') format('embedded-opentype'),
+        url('/_media/fonts/chronicledeckcond-seminormal.woff') format('woff'),
+        url('/_media/fonts/chronicledeckcond-seminormal.ttf') format('truetype'),
+        url('/_media/fonts/chronicledeckcond-seminormal.svg#chronicledeckcond-seminormal') format('svg');
     font-weight:normal;
     font-style:normal;
 }
 
-/* Chronicle Display Bolditalic */
+/* Chronicle Display Boldnormal */
 @font-face {
-    font-family:'chronicledisp-bolditalic';
-    src:url('/_media/fonts/chronicledisp-bolditalic.eot');
-    src:url('/_media/fonts/chronicledisp-bolditalic.eot?#iefix') format('embedded-opentype'),
-        url('/_media/fonts/chronicledisp-bolditalic.woff') format('woff'),
-        url('/_media/fonts/chronicledisp-bolditalic.ttf') format('truetype'),
-        url('/_media/fonts/chronicledisp-bolditalic.svg#chronicledisp-bolditalic') format('svg');
+    font-family:'chronicledisp-boldnormal';
+    src:url('/_media/fonts/chronicledisp-boldnormal.eot');
+    src:url('/_media/fonts/chronicledisp-boldnormal.eot?#iefix') format('embedded-opentype'),
+        url('/_media/fonts/chronicledisp-boldnormal.woff') format('woff'),
+        url('/_media/fonts/chronicledisp-boldnormal.ttf') format('truetype'),
+        url('/_media/fonts/chronicledisp-boldnormal.svg#chronicledisp-boldnormal') format('svg');
     font-weight:normal;
     font-style:normal;
 }
 
-/* Chronicle Display Semibolditalic */
+/* Chronicle Display Semiboldnormal */
 @font-face {
-    font-family:'chronicledisp-semibolditalic';
-    src:url('/_media/fonts/chronicledisp-semibolditalic.eot');
-    src:url('/_media/fonts/chronicledisp-semibolditalic.eot?#iefix') format('embedded-opentype'),
-        url('/_media/fonts/chronicledisp-semibolditalic.woff') format('woff'),
-        url('/_media/fonts/chronicledisp-semibolditalic.ttf') format('truetype'),
-        url('/_media/fonts/chronicledisp-semibolditalic.svg#chronicledisp-semibolditalic') format('svg');
+    font-family:'chronicledisp-semiboldnormal';
+    src:url('/_media/fonts/chronicledisp-semiboldnormal.eot');
+    src:url('/_media/fonts/chronicledisp-semiboldnormal.eot?#iefix') format('embedded-opentype'),
+        url('/_media/fonts/chronicledisp-semiboldnormal.woff') format('woff'),
+        url('/_media/fonts/chronicledisp-semiboldnormal.ttf') format('truetype'),
+        url('/_media/fonts/chronicledisp-semiboldnormal.svg#chronicledisp-semiboldnormal') format('svg');
     font-weight:normal;
     font-style:normal;
 }
 
 /* /// STYLES /// */
 
-p.bolditalic {
-    font:46px/40px 'chronicledisp-bolditalic', Georgia, serif;
+p.boldnormal {
+    font:46px/40px 'chronicledisp-boldnormal', Georgia, serif;
     color:#000;
 }
 
-p.semibolditalic {
-    font:46px/40px 'chronicledisp-semibolditalic', Georgia, serif;
+p.semiboldnormal {
+    font:46px/40px 'chronicledisp-semiboldnormal', Georgia, serif;
     color:#000;
 }
 

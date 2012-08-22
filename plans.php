@@ -324,48 +324,66 @@
                     <!-- Info -->
                     <div class="info info-1">
                         <h2>Unit 1A</h2>
-                        <p>1A ONE BEDROOM / ONE BATH<br />714 SF + 66 SF BALCONY</p>
+                        <p>ONE BEDROOM / ONE BATH<br />714 SF + 66 SF BALCONY</p>
                     </div>
                     <div class="info info-2" style="display:none;">
                         <h2>Unit 1B</h2>
-                        <p>1B ONE BEDROOM / ONE &amp; ONE HALF BATHS<br />730 SF + 65 SF BALCONY</p>
+                        <p>ONE BEDROOM / ONE &amp; ONE HALF BATHS<br />730 SF + 65 SF BALCONY</p>
                     </div>
                     <div class="info info-3" style="display:none;">
                         <h2>Unit 1C</h2>
-                        <p>1C ONE BEDROOM / ONE BATH<br />735 SF + 62 SF BALCONY</p>
+                        <p>ONE BEDROOM / ONE BATH<br />735 SF + 62 SF BALCONY</p>
                     </div>
                     <div class="info info-4" style="display:none;">
                         <h2>Unit 1D</h2>
-                        <p>1D ONE BEDROOM / ONE BATH<br />740 SF + 53 SF BALCONY</p>
+                        <p>ONE BEDROOM / ONE BATH<br />740 SF + 53 SF BALCONY</p>
                     </div>
                     <div class="info info-5" style="display:none;">
                         <h2>Unit 1E</h2>
-                        <p>1E ONE BEDROOM / ONE BATH<br />761 SF + 53 SF BALCONY</p>
+                        <p>ONE BEDROOM / ONE BATH<br />761 SF + 53 SF BALCONY</p>
                     </div>
                     <div class="info info-6" style="display:none;">
                         <h2>Unit 1F</h2>
-                        <p>1F ONE BEDROOM / ONE BATH<br />780 SF + 70 SF BALCONY</p>
+                        <p>ONE BEDROOM / ONE BATH<br />780 SF + 70 SF BALCONY</p>
                     </div>
                     <div class="info info-7" style="display:none;">
                         <h2>Unit 1G</h2>
-                        <p>1G ONE BEDROOM / ONE BATH<br />784 SF + 74 SF BALCONY</p>
+                        <p>ONE BEDROOM / ONE BATH<br />784 SF + 74 SF BALCONY</p>
                     </div>
                     <div class="info info-8" style="display:none;">
                         <h2>Unit 1H</h2>
-                        <p>1H ONE BEDROOM / ONE BATH<br />797 SF + 62 SF BALCONY</p>
+                        <p>ONE BEDROOM / ONE BATH<br />797 SF + 62 SF BALCONY</p>
                     </div>
                     <div class="info info-9" style="display:none;">
                         <h2>Unit 2A</h2>
-                        <p>2A TWO BEDROOMS / TWO BATHS<br />1,128 SF + 112 SF BALCONY</p>
+                        <p>TWO BEDROOMS / TWO BATHS<br />1,128 SF + 112 SF BALCONY</p>
                     </div>
                     <div class="info info-10" style="display:none;">
                         <h2>Unit 2C</h2>
-                        <p>2C TWO BEDROOMS / TWO BATHS<br />1,239 SF + 128 SF BALCONY</p>
+                        <p>TWO BEDROOMS / TWO BATHS<br />1,239 SF + 128 SF BALCONY</p>
                     </div>
                     <div class="info info-11" style="display:none;">
-                        <h2>STUDIO</h2>
-                        <p>ST STUDIO / ONE BATH<br />643 SF + 96 SF BALCONY</p>
+                        <h2>Unit ST</h2>
+                        <p>STUDIO / ONE BATH<br />643 SF + 96 SF BALCONY</p>
                     </div>
+                </div>
+            </article>
+            <article class="plans-2">
+                <div class="plans-2">
+                    <h2 style="padding-bottom:6px;">Downloads:</h2>
+                    <ul class="plans">                    
+                        <li><a href="/_media/downloads/1a.pdf" target="_blank">Unit 1A</a></li>
+                        <li><a href="/_media/downloads/1b.pdf" target="_blank">Unit 1B</a></li>
+                        <li><a href="/_media/downloads/1c.pdf" target="_blank">Unit 1C</a></li>
+                        <li><a href="/_media/downloads/1d.pdf" target="_blank">Unit 1D</a></li>
+                        <li><a href="/_media/downloads/1e.pdf" target="_blank">Unit 1E</a></li>
+                        <li><a href="/_media/downloads/1f.pdf" target="_blank">Unit 1F</a></li> 
+                        <li><a href="/_media/downloads/1g.pdf" target="_blank">Unit 1G</a></li> 
+                        <li><a href="/_media/downloads/1h.pdf" target="_blank">Unit 1H</a></li> 
+                        <li><a href="/_media/downloads/2a.pdf" target="_blank">Unit 2A</a></li> 
+                        <li><a href="/_media/downloads/2c.pdf" target="_blank">Unit 2C</a></li>
+                        <li><a href="/_media/downloads/studio.pdf" target="_blank">Studio</a></li>                     
+                    </li>
                 </div>
             </article>
 <?php /* FOOTER */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/footer.php"); ?>            

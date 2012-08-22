@@ -2,11 +2,6 @@
 
 /* /// FORM /// */
 
-p.success {
-    font-size:16px;
-    color:rgb(160,196,218);
-}
-
 section > form {
     z-index:2;
     position:absolute;
@@ -17,7 +12,7 @@ section > form {
 }
 
 section > form h2 {
-    font:normal normal 32px/32px Georgia, serif;
+    font:italic lighter 32px/32px Georgia, serif;
     color:#fff;
     text-transform:uppercase;
     text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
@@ -37,7 +32,6 @@ section > form a {
     font:normal lighter 14px/14px Georgia, serif;
     color:rgb(160,196,218);
     text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
-    text-transform:uppercase;
     -webkit-transition:all 0.3s ease-in-out; 
     -moz-transition:   all 0.3s ease-in-out;
     -ms-transition:    all 0.3s ease-in-out; 
@@ -78,6 +72,13 @@ section > form input, section > form textarea {
     transition:        all 0.3s ease-in-out; 
     -webkit-appearance:none;
     -moz-appearance:none;
+}
+
+input.zomgErrar {background-color:rgb(160,110,110);}
+
+p.success {
+    font-size:16px;
+    color:rgb(160,196,218);
 }
 
 section > form input[type=submit] {

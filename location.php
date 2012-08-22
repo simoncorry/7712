@@ -87,7 +87,7 @@
 <?php /* NAV */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/nav.php"); ?>
             <article class="location">
                 <div class="location">
-                    <h2>Resturants</h2>
+                    <h2>Restaurants</h2>
                     <ol>
                         <li>STK</li>
                         <li>Cucina Asellina</li> 
@@ -196,7 +196,6 @@
             <div class="map">
                 <img src="/_media/images/map/map.jpg" alt="" width="500" height="553" class="my_frame" />
             </div>
-<?php /* FOOTER */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/footer.php"); ?> 
         </section>             
     </body>
 </html>

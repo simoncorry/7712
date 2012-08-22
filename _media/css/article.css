@@ -55,7 +55,8 @@ section > article > div > ul li {
     font:normal 13.5px/18px Georgia, serif;
     color:#f9f9f9;
     text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
-    margin:8px 0 8px 20px;    
+    padding:5px 0 5px;
+    margin-left:20px;    
 }
 
 section > article > div > ul li a {
@@ -244,6 +245,43 @@ section > article > div.plans {
     padding:0px !important;
     margin:0px !important;
     overflow:hidden;
+}
+
+section > article.plans-2 {
+    z-index:1;
+    position:absolute;
+    left:110px;
+    top:378px;
+    background:rgb(35,31,32); /* Fallback */
+    background:rgba(35,31,32,0.7);
+    width:216px;
+    height:235px;
+    border-radius:10px;
+    overflow:hidden;
+    -webkit-transition:all 0.3s ease-in-out; 
+    -moz-transition:   all 0.3s ease-in-out;
+    -ms-transition:    all 0.3s ease-in-out; 
+    -o-transition:     all 0.3s ease-in-out;  
+    transition:        all 0.3s ease-in-out;
+}
+
+section > article > div.plans-2 { 
+    position:absolute;
+    top:10px;
+    left:10px;  
+    width:180px;
+    height:315px;
+    margin:10px;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+ul.plans {   
+    -webkit-column-count:2;
+    -moz-column-count:2;
+    -ms-column-count:2;
+    -o-column-count:2;
+    column-count:2;
 }
 
 /* Plate */

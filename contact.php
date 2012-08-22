@@ -42,7 +42,10 @@
         <!-- /// FORM /// -->
         <script language="javascript">	
             $(function() {   
-                $("#contact .button").click(function() {                       
+                $('input').bind('focus', function() {
+                    $(this).removeClass('zomgErrar');
+                });
+                $("#contact .button").click(function() {                                      
                     var name       = $("#name").val();     
                     var email      = $("#email").val(); 
                     var phone      = $("#phone").val();
@@ -51,7 +54,19 @@
                     var state      = $("#state").val();
                     var zip        = $("#zip").val();
                     var comments   = $("#comments").val();                   
-                    var dataString = 'name='+ name + '&email=' + email + '&phone=' + phone + '&street=' + street + '&city=' + city + '&state=' + state + '&zip=' + zip + '&comments=' + comments;      
+                    var dataString = 'name='+ name + '&email=' + email + '&phone=' + phone + '&street=' + street + '&city=' + city + '&state=' + state + '&zip=' + zip + '&comments=' + comments;
+                    if(name==''){    
+                        $('#name').addClass('zomgErrar');
+                        return false;
+                    }
+                    if(email==''){    
+                        $('#email').addClass('zomgErrar');
+                        return false;
+                    }
+                    if(phone==''){    
+                        $('#phone').addClass('zomgErrar');
+                        return false;
+                    }
                     $.ajax({     
                         type: "POST",     
                         url: "email.php",     
@@ -62,7 +77,8 @@
                         }     
                     });      
                     return false;   
-                }); 
+                });
+                 
             });
         </script>
                     
@@ -72,7 +88,7 @@
 <?php /* NAV */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/nav.php"); ?>
             <article class="contact">
                 <div class="contact">
-                    <h2 style="padding-bottom:12px;">Downloads:</h2>
+                    <h2 style="padding-bottom:6px;">Downloads:</h2>
                     <ul>                    
                         <li><a href="/_media/downloads/amenities.pdf" target="_blank">Features &amp; Amenities</a></li>
                         <li><a href="/_media/downloads/location.pdf" target="_blank">Location Map</a></li>
@@ -101,7 +117,7 @@
                 <input type="text"  id="state"    name="state"    placeholder="State" />
                 <input type="text"  id="zip"      name="zip"      placeholder="Zip" />
                 <textarea placeholder="Comments" class="placeholder" name="comments" id="comments"></textarea>
-                <input type="submit" name="submit" class="button" />
+                <input type="submit" name="submit" value="submit" class="button" />
                 <div class="group"></div>
                 <footer>
                     <a href="http://www.northwesternmutual.com/" target="_blank" class="logo-northwester"></a>

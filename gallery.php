@@ -87,6 +87,13 @@
 		    $("section > footer").pinFooter("relative");
 		});
         </script>
+        
+        <!-- /// SCROLL BARS /// -->
+        <script type="text/javascript">
+            $(function(){
+                $('.scroll').jScrollPane();
+            });     
+        </script>
               
     </head>
     <body>
@@ -94,7 +101,7 @@
 <?php /* NAV */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/nav.php"); ?>
             <article class="gallery" onclick="">
                 <h2>Videos</h2>
-                <div class="gallery">
+                <div class="gallery scroll">
                     <!--
                     <div>
                         <object style="width:210px;height:120px;">
@@ -106,10 +113,10 @@
                         </object>
                     </div>
                     -->
-                    <div>
+                    <div class="videos">
                         <iframe src="http://player.vimeo.com/video/46778598" width="210" height="120" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                     </div>
-                    <div>
+                    <div class="videos">
                         <iframe src="http://player.vimeo.com/video/44549452" width="210" height="120" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                     </div>
                 </div>

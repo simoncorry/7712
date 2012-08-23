@@ -1,0 +1,242 @@
+@charset "UTF-8";
+
+/* /// PLANS /// */
+
+/* Plate */
+
+div.plate-base-main {
+    position:absolute;
+    right:0;
+    background:transparent url(/_media/images/plans/floorplate-base.png) no-repeat;
+    background-size:100% !important;
+    width:380px;
+    height:117px;
+}
+
+div.plate-base {
+    position:absolute;
+    right:0;
+    background:transparent url(/_media/images/plans/floorplate-1a.png) no-repeat;
+    background-size:100% !important;
+    width:380px;
+    height:117px;
+}
+
+div.plate-1b {
+    z-index:9999;
+    position:absolute;
+    left:255px !important;
+    top:65px !important;
+    background:transparent;
+    width:25px !important;
+    height:35px !important;
+}
+
+div.plate-1b-2 {
+    z-index:9999;
+    position:absolute;
+    left:388px !important;
+    top:65px !important;
+    background:transparent;
+    width:25px !important;
+    height:35px !important;
+}
+
+div.plate-1c {
+    z-index:9999;
+    position:absolute;
+    left:275px !important;
+    top:15px !important;
+    background:transparent;
+    width:15px !important;
+    height:40px !important;
+}
+
+div.plate-1c-2 {
+    z-index:9999;
+    position:absolute;
+    left:377px !important;
+    top:15px !important;
+    background:transparent;
+    width:15px !important;
+    height:40px !important;
+}
+
+div.plate-1d {
+    z-index:9999;
+    position:absolute;
+    left:336px !important;
+    top:75px !important;
+    background:transparent;
+    width:30px !important;
+    height:30px !important;
+}
+
+div.plate-1e {
+    z-index:9999;
+    position:absolute;
+    left:302px !important;
+    top:75px !important;
+    background:transparent;
+    width:30px !important;
+    height:30px !important;
+}
+
+div.plate-1f {
+    z-index:9999;
+    position:absolute;
+    left:322px !important;
+    top:20px !important;
+    background:transparent;
+    width:24px !important;
+    height:32px !important;
+}
+
+div.plate-1g {
+    z-index:9999;
+    position:absolute;
+    left:293px !important;
+    top:20px !important;
+    background:transparent;
+    width:28px !important;
+    height:35px !important;
+}
+
+div.plate-1g-2 {
+    z-index:9999;
+    position:absolute;
+    left:347px !important;
+    top:20px !important;
+    background:transparent;
+    width:28px !important;
+    height:35px !important;
+}
+
+div.plate-1h {
+    z-index:9999;
+    position:absolute;
+    left:281px !important;
+    top:58px !important;
+    background:transparent;
+    width:20px !important;
+    height:50px !important;
+}
+
+div.plate-1h-2 {
+    z-index:9999;
+    position:absolute;
+    left:367px !important;
+    top:58px !important;
+    background:transparent;
+    width:20px !important;
+    height:50px !important;
+}
+
+div.plate-2a {
+    z-index:9999;
+    position:absolute;
+    left:210px !important;
+    top:74px !important;
+    background:transparent;
+    width:44px !important;
+    height:40px !important;
+}
+
+div.plate-2a-2 {
+    z-index:9999;
+    position:absolute;
+    left:414px !important;
+    top:74px !important;
+    background:transparent;
+    width:44px !important;
+    height:40px !important;
+}
+
+div.plate-2c {
+    z-index:9999;
+    position:absolute;
+    left:206px !important;
+    top:16px !important;
+    background:transparent;
+    width:42px !important;
+    height:32px !important;
+}
+
+div.plate-2c-2 {
+    z-index:9999;
+    position:absolute;
+    left:419px !important;
+    top:16px !important;
+    background:transparent;
+    width:42px !important;
+    height:32px !important;
+}
+
+div.plate-studio {
+    z-index:9999;
+    position:absolute;
+    left:205px !important;
+    top:49px !important;
+    background:transparent;
+    width:40px !important;
+    height:24px !important;
+}
+
+div.plate-studio-2 {
+    z-index:9999;
+    position:absolute;
+    left:423px !important;
+    top:49px !important;
+    background:transparent;
+    width:40px !important;
+    height:24px !important;
+}
+
+/* Unit */
+
+div.unit-base {
+    z-index:1;
+    position:absolute;
+    left:0px;
+    top:250px;
+    background:transparent url(/_media/images/plans/1a.png) no-repeat;
+    background-size:100% !important;
+    width:750px;
+    height:400px;
+    padding:0px !important;
+    margin:0px !important;
+    border-radius:0px !important;
+}
+
+/* Info */
+
+div.info {
+    z-index:1;
+    position:absolute;
+    left:205px;
+    top:140px;
+    width:400px;
+    height:auto;
+    padding:0px !important;
+    margin:0px !important;
+    border-radius:0px !important;
+}
+
+div.info h2 {
+    font:normal 20px/26px Georgia, serif;
+    color:#fff;
+    text-transform:uppercase;
+    text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
+}
+
+div.info p {
+    position:relative !important;
+    top:0 !important;
+    height:auto !important;
+    padding:0 !important;
+    margin:0 !important;
+    font:normal 13px/18px Georgia, serif;
+    color:#fff;
+    text-transform:uppercase;
+    text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
+}

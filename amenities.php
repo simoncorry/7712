@@ -87,13 +87,20 @@
 		    $("section > footer").pinFooter("relative");
 		});
         </script>
+        
+        <!-- /// SCROLL BARS /// -->
+        <script type="text/javascript">
+            $(function(){
+                $('.scroll').jScrollPane();
+            });     
+        </script>
               
     </head>
     <body>
         <section>       	       	
 <?php /* NAV */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/nav.php"); ?>
-            <article>
-                <div>
+            <article class="amenities">
+                <div class="amenities scroll">
                     <h2>Outdoor Plaza Level<br />(6th Floor):</h2>
                     <ul>
                         <li>Saline swimming pool with epic waterfall and in-water tanning ledges</li>

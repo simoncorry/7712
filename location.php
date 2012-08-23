@@ -69,8 +69,12 @@
 		});
         </script>
         
-        <!-- /// MAP /// -->       
-       
+        <!-- /// SCROLL BARS /// -->
+        <script type="text/javascript">
+            $(function(){
+                $('.scroll').jScrollPane();
+            });     
+        </script>
         
         <!-- /// MAP /// -->
         <script type="text/javascript">
@@ -86,7 +90,7 @@
         <section>       	       	
 <?php /* NAV */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/nav.php"); ?>
             <article class="location">
-                <div class="location">
+                <div class="location scroll">
                     <h2>Restaurants</h2>
                     <ol>
                         <li>STK</li>

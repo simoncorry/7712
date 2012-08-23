@@ -61,13 +61,20 @@
 		    $("section > footer").pinFooter("relative");
 		});
         </script>
+        
+        <!-- /// SCROLL BARS /// -->
+        <script type="text/javascript">
+            $(function(){
+                $('.scroll').jScrollPane();
+            });     
+        </script>
               
     </head>
     <body>
         <section>       	       	
 <?php /* NAV */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/nav.php"); ?>
-            <article>
-                <div>
+            <article class="features">
+                <div class="features scroll">
                     <h2>Unit Interiors:</h2>
                     <ul>
                         <li>Granite countertops with under-mount sinks</li>

@@ -28,8 +28,8 @@ div.plate-1b {
     left:255px !important;
     top:65px !important;
     background:transparent;
-    width:25px !important;
-    height:35px !important;
+    width:26px !important;
+    height:47px !important;
 }
 
 div.plate-1b-2 {
@@ -38,38 +38,38 @@ div.plate-1b-2 {
     left:388px !important;
     top:65px !important;
     background:transparent;
-    width:25px !important;
-    height:35px !important;
+    width:26px !important;
+    height:47px !important;
 }
 
 div.plate-1c {
     z-index:9999;
     position:absolute;
-    left:275px !important;
+    left:274px !important;
     top:15px !important;
     background:transparent;
-    width:15px !important;
-    height:40px !important;
+    width:19px !important;
+    height:43px !important;
 }
 
 div.plate-1c-2 {
     z-index:9999;
     position:absolute;
-    left:377px !important;
+    left:375px !important;
     top:15px !important;
     background:transparent;
-    width:15px !important;
-    height:40px !important;
+    width:19px !important;
+    height:43px !important;
 }
 
 div.plate-1d {
     z-index:9999;
     position:absolute;
-    left:336px !important;
+    left:334px !important;
     top:75px !important;
     background:transparent;
-    width:30px !important;
-    height:30px !important;
+    width:32px !important;
+    height:37px !important;
 }
 
 div.plate-1e {
@@ -78,18 +78,18 @@ div.plate-1e {
     left:302px !important;
     top:75px !important;
     background:transparent;
-    width:30px !important;
-    height:30px !important;
+    width:32px !important;
+    height:37px !important;
 }
 
 div.plate-1f {
     z-index:9999;
     position:absolute;
-    left:322px !important;
+    left:321px !important;
     top:20px !important;
     background:transparent;
-    width:24px !important;
-    height:32px !important;
+    width:26px !important;
+    height:37px !important;
 }
 
 div.plate-1g {
@@ -99,7 +99,7 @@ div.plate-1g {
     top:20px !important;
     background:transparent;
     width:28px !important;
-    height:35px !important;
+    height:38px !important;
 }
 
 div.plate-1g-2 {
@@ -109,7 +109,7 @@ div.plate-1g-2 {
     top:20px !important;
     background:transparent;
     width:28px !important;
-    height:35px !important;
+    height:38px !important;
 }
 
 div.plate-1h {
@@ -118,48 +118,48 @@ div.plate-1h {
     left:281px !important;
     top:58px !important;
     background:transparent;
-    width:20px !important;
-    height:50px !important;
+    width:21px !important;
+    height:54px !important;
 }
 
 div.plate-1h-2 {
     z-index:9999;
     position:absolute;
-    left:367px !important;
+    left:366px !important;
     top:58px !important;
     background:transparent;
-    width:20px !important;
-    height:50px !important;
+    width:22px !important;
+    height:54px !important;
 }
 
 div.plate-2a {
     z-index:9999;
     position:absolute;
-    left:210px !important;
-    top:74px !important;
+    left:205px !important;
+    top:70px !important;
     background:transparent;
-    width:44px !important;
-    height:40px !important;
+    width:50px !important;
+    height:42px !important;
 }
 
 div.plate-2a-2 {
     z-index:9999;
     position:absolute;
-    left:414px !important;
-    top:74px !important;
+    left:412px !important;
+    top:70px !important;
     background:transparent;
-    width:44px !important;
-    height:40px !important;
+    width:50px !important;
+    height:42px !important;
 }
 
 div.plate-2c {
     z-index:9999;
     position:absolute;
-    left:206px !important;
+    left:205px !important;
     top:16px !important;
     background:transparent;
-    width:42px !important;
-    height:32px !important;
+    width:43px !important;
+    height:33px !important;
 }
 
 div.plate-2c-2 {
@@ -168,8 +168,8 @@ div.plate-2c-2 {
     left:419px !important;
     top:16px !important;
     background:transparent;
-    width:42px !important;
-    height:32px !important;
+    width:43px !important;
+    height:33px !important;
 }
 
 div.plate-studio {
@@ -185,7 +185,7 @@ div.plate-studio {
 div.plate-studio-2 {
     z-index:9999;
     position:absolute;
-    left:423px !important;
+    left:422px !important;
     top:49px !important;
     background:transparent;
     width:40px !important;

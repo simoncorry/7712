@@ -99,20 +99,10 @@
     <body>
         <section>       	       	
 <?php /* NAV */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/nav.php"); ?>
-            <article class="gallery" onclick="">
-                <h2>Videos</h2>
-                <div class="gallery scroll">
-                    <!--
-                    <div>
-                        <object style="width:210px;height:120px;">
-                            <param name="movie" value="http://static.issuu.com/webembed/viewers/style1/v2/IssuuReader.swf?mode=mini&amp;documentId=120516040250-3b5bd3a7c8404b86b1fc36d0876f94b4" />
-                            <param name="allowfullscreen" value="true"/>
-                            <param name="menu" value="false"/>
-                            <param name="bgcolor" value="#221f1f" />
-                            <embed src="http://static.issuu.com/webembed/viewers/style1/v2/IssuuReader.swf" type="application/x-shockwave-flash" allowfullscreen="true" menu="false" />
-                        </object>
-                    </div>
-                    -->
+            
+            <article class="gallery">
+                <div class="gallery">
+                    <h2>Videos:</h2>
                     <div class="videos">
                         <iframe src="http://player.vimeo.com/video/46778598" width="210" height="120" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                     </div>

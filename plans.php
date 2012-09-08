@@ -369,7 +369,7 @@
                 </div>
             </article>
             <article class="plans-2">
-                <div class="plans-2">
+                <div class="plans-2 scroll">
                     <h2 style="padding-bottom:6px;">Downloads:</h2>
                     <ul class="plans">                    
                         <li><a href="/_media/downloads/1a.pdf" target="_blank">Unit 1A</a></li>

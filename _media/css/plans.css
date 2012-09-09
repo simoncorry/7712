@@ -132,6 +132,25 @@ div.plate-1h-2 {
     height:54px !important;
 }
 
+div.plate-1h-3 {
+    z-index:9999;
+    position:absolute;
+    left:290px !important;
+    top:58px !important;
+    background:transparent;
+    width:30px !important;
+    height:14px !important;
+}
+
+div.plate-1h-4 {
+    z-index:9999;
+    position:absolute;
+    left:349px !important;
+    top:58px !important;
+    width:30px !important;
+    height:14px !important;
+}
+
 div.plate-2a {
     z-index:9999;
     position:absolute;

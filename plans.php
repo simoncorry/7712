@@ -203,6 +203,34 @@
                 $('div.info-8').css("display", "none"); 
                 $('div.info-1').css("display", "block"); 
             });
+            $('div.plate-1h-3').mouseover(function() {              
+                $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1h.png)");
+                $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1h.png)");
+                
+                $('div.info-1').css("display", "none"); 
+                $('div.info-8').css("display", "block"); 
+            });
+            $('div.plate-1h-3').mouseout(function() {              
+                $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1a.png)");
+                $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1a.png)");
+                
+                $('div.info-8').css("display", "none"); 
+                $('div.info-1').css("display", "block"); 
+            });
+            $('div.plate-1h-4').mouseover(function() {              
+                $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1h.png)");
+                $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1h.png)");
+                
+                $('div.info-1').css("display", "none"); 
+                $('div.info-8').css("display", "block"); 
+            });
+            $('div.plate-1h-4').mouseout(function() {              
+                $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-1a.png)");
+                $('div.unit-base').css("background-image", "url(/_media/images/plans/unit-1a.png)");
+                
+                $('div.info-8').css("display", "none"); 
+                $('div.info-1').css("display", "block"); 
+            });
             /* 2A */
 		    $('div.plate-2a').mouseover(function() {              
                 $('div.plate-base').css("background-image", "url(/_media/images/plans/floorplate-2a.png)");
@@ -313,6 +341,8 @@
                     <div class="plate-1g-2"></div>
                     <div class="plate-1h"></div>
                     <div class="plate-1h-2"></div>
+                    <div class="plate-1h-3"></div>
+                    <div class="plate-1h-4"></div>
                     <div class="plate-2a"></div>
                     <div class="plate-2a-2"></div>
                     <div class="plate-2c"></div>

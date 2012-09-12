@@ -45,7 +45,9 @@
                         {image : '/_media/images/slides/features/04.jpg', thumb : '/_media/images/slides/features/04-thumb.jpg'},
                         {image : '/_media/images/slides/features/05.jpg', thumb : '/_media/images/slides/features/05-thumb.jpg'},
                         {image : '/_media/images/slides/features/06.jpg', thumb : '/_media/images/slides/features/06-thumb.jpg'},
-                        {image : '/_media/images/slides/features/07.jpg', thumb : '/_media/images/slides/features/07-thumb.jpg'}
+                        {image : '/_media/images/slides/features/07.jpg', thumb : '/_media/images/slides/features/07-thumb.jpg'},
+                        {image : '/_media/images/slides/features/08.jpg', thumb : '/_media/images/slides/features/08-thumb.jpg'},
+                        {image : '/_media/images/slides/features/09.jpg', thumb : '/_media/images/slides/features/09-thumb.jpg'}
                     ]
                 });
             });            

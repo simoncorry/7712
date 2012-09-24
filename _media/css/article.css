@@ -182,6 +182,8 @@ section > article.plans-2 {
     transition:        all 0.3s ease-in-out;
 }
 
+.ie6 section > article.plans-2 {height:345px;} /* IE Fix */
+
 section > article > div.plans-2 { 
     position:absolute;
     top:10px;

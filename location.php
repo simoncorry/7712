@@ -19,7 +19,7 @@
         <meta name="Author" content="77 12th" />
         <meta name="description" content="77 12th - Luxury High-Rise Apartments - Midtown Atlanta"/>
         <meta name="keywords" content=""/>
-        <meta name="viewport" content="width=960px, user-scalable=no"> 
+        <meta name="viewport" content="width=960px, user-scalable=yes"> 
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <meta http-equiv="X-UA-Compatible" content="chrome=1">

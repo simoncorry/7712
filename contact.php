@@ -103,10 +103,13 @@
                 <p>Visit the new leasing center to experience 77 12th today!</p>
                 <p>We are located on Crescent Avenue in the 1010 Midtown retail suite next to Ri Ra Irish Pub (directly across the street from 77 12th) with convenient parking available on-site in the 1010 Midtown parking deck.</p>
                 <address>
-                    <a href="http://goo.gl/maps/qicIS" target="_blank">1080 Peachtree Street NE<br />Atlanta, GA 30309</a>
+                    <div class="left">Address:</div>
+                    <div class="right"><a href="http://goo.gl/maps/qicIS" target="_blank">1080 Peachtree Street NE<br />Atlanta, GA 30309</a></div>
+                    <div class="left">Phone:</div>
+                    <div class="right"><a href="tel:+14048729080">404-872-9080</a></div>
+                    <div class="left">Hours:</div>
+                    <div class="right">Monday - Friday  9:00 - 6:00<br />Saturday  10:00 - 5:00<br />Sunday  1:00 - 5:00</div>
                 </address>
-                <p style="padding-bottom:6px;">Hours:</p>
-                <p>Monday - Friday  9:00 - 6:00<br />Saturday  10:00 - 5:00<br />Sunday  1:00 - 5:00</p>
                 <hr />
                 <p class="success" style="display:none">Your message has been sent successfully.</p>
                 <input type="text"  id="name"     name="name"     placeholder="*First &amp; Last Name" />

@@ -9,6 +9,9 @@ section > form {
     top:70px;
     width:365px;
     height:600px;
+    font:normal lighter 14px/20px Georgia, serif;
+    color:#fff;
+    text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
 }
 
 section > form h2 {
@@ -19,14 +22,21 @@ section > form h2 {
     padding-bottom:20px;
 }
 
-section > form p {
-    font:normal lighter 14px/20px Georgia, serif;
-    color:#fff;
-    text-shadow:rgba(50,50,50,0.8) 1px 1px 0px;
+section > form p {padding-bottom:20px;}
+
+section > form address {
     padding-bottom:20px;
 }
 
-section > form address {padding-bottom:20px;}
+section > form address div.left,
+section > form address div.right {
+    float:left;
+    padding-bottom:16px;
+}
+
+section > form address div.left {width:80px;}
+
+section > form address div.right {width:240px;}
 
 section > form a {
     font:normal lighter 14px/14px Georgia, serif;

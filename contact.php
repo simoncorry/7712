@@ -106,7 +106,7 @@
                     <div class="left">Address:</div>
                     <div class="right"><a href="http://goo.gl/maps/qicIS" target="_blank">1080 Peachtree Street NE<br />Atlanta, GA 30309</a></div>
                     <div class="left">Phone:</div>
-                    <div class="right"><a href="tel:+14048729080">404-872-9080</a></div>
+                    <div class="right">404-872-9080</div>
                     <div class="left">Hours:</div>
                     <div class="right">Monday - Friday  9:00 - 6:00<br />Saturday  10:00 - 5:00<br />Sunday  1:00 - 5:00</div>
                 </address>

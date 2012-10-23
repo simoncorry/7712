@@ -64,6 +64,7 @@ section > article > div.home {
     margin:-130px 0 0 -120px;
     overflow-y:hidden;
     overflow-x:hidden;
+    outline:none !important;
 }
 
 /* Amenities and Features */
@@ -90,6 +91,7 @@ section > article.features > div.features {
     height:240px;
     padding-right:10px;
     margin:-120px 0 0 -130px;
+    outline:none !important;
 }
 
 /* Location */
@@ -121,6 +123,7 @@ section > article > div.location {
     margin:10px;
     overflow-y:scroll;
     overflow-x:hidden;
+    outline:none !important;
 }
 
 section > article > div.location ol {
@@ -162,6 +165,7 @@ section > article > div.plans {
     padding:0px !important;
     margin:0px !important;
     overflow:hidden;
+    outline:none !important;
 }
 
 section > article.plans-2 {
@@ -171,10 +175,10 @@ section > article.plans-2 {
     top:378px;
     background:rgb(35,31,32);
     background:rgba(35,31,32,0.7);
-    width:216px;
+    width:200px;
     height:235px;
     border-radius:10px;
-    overflow:hidden;
+    outline:none !important;
     -webkit-transition:all 0.3s ease-in-out; 
     -moz-transition:   all 0.3s ease-in-out;
     -ms-transition:    all 0.3s ease-in-out; 
@@ -182,19 +186,19 @@ section > article.plans-2 {
     transition:        all 0.3s ease-in-out;
 }
 
-.ie6 section > article.plans-2 {height:345px;} /* IE Fix */
-
 section > article > div.plans-2 { 
     position:absolute;
     top:10px;
     left:10px;  
-    width:180px;
-    height:315px;
+    width:160px;
+    height:200px;
     margin:10px;
-    overflow-y:hidden;
+    overflow-y:scroll;
     overflow-x:hidden;
+    outline:none !important;
 }
 
+/*
 ul.plans {   
     -webkit-column-count:2;
     -moz-column-count:2;
@@ -202,6 +206,7 @@ ul.plans {
     -o-column-count:2;
     column-count:2;
 }
+*/
 
 /* Gallery */
 
@@ -212,8 +217,8 @@ section > article.gallery {
     top:378px;
     background:rgb(35,31,32);
     background:rgba(35,31,32,0.8);
-    width:260px;
-    height:380px;
+    width:310px !important;
+    height:240px;
     border-radius:10px;
     overflow:hidden;
     -webkit-transition:all 0.3s ease-in-out; 
@@ -227,20 +232,29 @@ section > article > div.gallery {
     position:absolute;
     top:10px;
     left:10px;  
-    width:230px;
-    height:340px;
+    width:260px;
+    height:200px;
     margin:10px;
-    overflow-y:hidden;
+    overflow-y:scroll;
     overflow-x:hidden;
+    outline:none !important;
 }
 
-div.videos {
-    background:rgba(160,196,218,0.4);  
-    width:210px;
+div.videos,
+a.books {
+    display:block;
+    background-color:rgba(160,196,218,0.4);  
+    width:210px !important;
     height:120px;
     border-radius:5px !important;
     padding:5px;
     margin:20px 0;
+}
+
+a.books {
+    background-position:center center;
+    background-size:210px 120px;
+    background-repeat:no-repeat;
 }
 
 /* Contact */

@@ -39,6 +39,13 @@
 		});
         </script>
         
+        <!-- /// SCROLL BARS /// -->
+        <script type="text/javascript">
+            $(function(){
+                $('.scroll').jScrollPane();
+            });     
+        </script>
+        
         <!-- /// FLOOR PLANS /// -->
         <script type="text/javascript">
         $(document).ready(function() {

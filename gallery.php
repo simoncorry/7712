@@ -109,11 +109,8 @@
                     <div class="videos">
                         <iframe src="http://player.vimeo.com/video/44549452" width="210" height="120" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                     </div>
-                    <h2>Art Paper:</h2>
                     <a href="http://issuu.com/12thmidtown/docs/7712th-artpaper?mode=window&printButtonEnabled=false&shareButtonEnabled=false&searchButtonEnabled=false&backgroundColor=%231b1b1b" target="_blank" class="books" style="background-image:url('/_media/images/slides/gallery/33-thumb.jpg');"></a>
-                    <h2>Look Book:</h2>
                     <a href="http://issuu.com/12thmidtown/docs/12m-lookbook?mode=window&printButtonEnabled=false&shareButtonEnabled=false&searchButtonEnabled=false&backgroundColor=%231b1b1b" target="_blank" class="books" style="background-image:url('/_media/images/slides/gallery/33-thumb.jpg');"></a>
-                    <h2>Floor Plan Book:</h2>
                     <a href="http://issuu.com/12thmidtown/docs/floorplan_book-issuu?mode=window&printButtonEnabled=false&shareButtonEnabled=false&searchButtonEnabled=false&backgroundColor=%231b1b1b" target="_blank" class="books" style="background-image:url('/_media/images/slides/gallery/33-thumb.jpg');"></a>                    
                 </div>
             </article>

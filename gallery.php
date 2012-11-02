@@ -109,9 +109,9 @@
                     <div class="videos">
                         <iframe src="http://player.vimeo.com/video/44549452" width="210" height="120" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                     </div>
-                    <a href="http://issuu.com/12thmidtown/docs/7712th-artpaper?mode=window&printButtonEnabled=false&shareButtonEnabled=false&searchButtonEnabled=false&backgroundColor=%231b1b1b" target="_blank" class="books" style="background-image:url('/_media/images/slides/gallery/33-thumb.jpg');"></a>
-                    <a href="http://issuu.com/12thmidtown/docs/12m-lookbook?mode=window&printButtonEnabled=false&shareButtonEnabled=false&searchButtonEnabled=false&backgroundColor=%231b1b1b" target="_blank" class="books" style="background-image:url('/_media/images/slides/gallery/33-thumb.jpg');"></a>
-                    <a href="http://issuu.com/12thmidtown/docs/floorplan_book-issuu?mode=window&printButtonEnabled=false&shareButtonEnabled=false&searchButtonEnabled=false&backgroundColor=%231b1b1b" target="_blank" class="books" style="background-image:url('/_media/images/slides/gallery/33-thumb.jpg');"></a>                    
+                    <a href="http://issuu.com/12thmidtown/docs/7712th-artpaper?mode=window&printButtonEnabled=false&shareButtonEnabled=false&searchButtonEnabled=false&backgroundColor=%231b1b1b" target="_blank" class="books" style="background-image:url('/_media/images/gallery/brochure-thumb.jpg');"></a>
+                    <a href="http://issuu.com/12thmidtown/docs/12m-lookbook?mode=window&printButtonEnabled=false&shareButtonEnabled=false&searchButtonEnabled=false&backgroundColor=%231b1b1b" target="_blank" class="books" style="background-image:url('/_media/images/gallery/lookbook-thumb.jpg');"></a>
+                    <a href="http://issuu.com/12thmidtown/docs/floorplan_book-issuu?mode=window&printButtonEnabled=false&shareButtonEnabled=false&searchButtonEnabled=false&backgroundColor=%231b1b1b" target="_blank" class="books" style="background-image:url('/_media/images/gallery/floorplan-book-thumb.jpg');"></a>                    
                 </div>
             </article>
 <?php /* FOOTER */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/footer.php"); ?> 

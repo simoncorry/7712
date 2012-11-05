@@ -408,6 +408,7 @@
             <article class="plans-2">
                 <div class="plans-2 scroll">
                     <h2 style="padding-bottom:6px;">Downloads:</h2>
+                    <a href="http://issuu.com/12thmidtown/docs/floorplan_book-issuu?mode=window&printButtonEnabled=false&shareButtonEnabled=false&searchButtonEnabled=false&backgroundColor=%231b1b1b" target="_blank" class="books" style="background-image:url('/_media/images/gallery/floorplan-book-thumb.jpg'); background-size:cover !important; width:120px !important; height:60px;"></a> 
                     <ul class="plans">                    
                         <li><a href="/_media/downloads/1a.pdf" target="_blank">Unit 1A</a></li>
                         <li><a href="/_media/downloads/1b.pdf" target="_blank">Unit 1B</a></li>

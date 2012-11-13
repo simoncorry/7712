@@ -112,14 +112,14 @@
                 </address>
                 <hr />
                 <p class="success" style="display:none">Your message has been sent successfully.</p>
-                <input type="text"  id="name"     name="name"     placeholder="*First &amp; Last Name" />
-                <input type="email" id="email"    name="email"    placeholder="*Email" />
-                <input type="tel"   id="phone"    name="phone"    placeholder="*Phone" />
-                <input type="text"  id="street"   name="street"   placeholder="Street Address" />
-                <input type="text"  id="city"     name="city"     placeholder="City" />
-                <input type="text"  id="state"    name="state"    placeholder="State" />
-                <input type="text"  id="zip"      name="zip"      placeholder="Zip" />
-                <textarea placeholder="Comments" class="placeholder" name="comments" id="comments"></textarea>
+                <input type="text"  id="name"     name="name"     value="*First &amp; Last Name" />
+                <input type="email" id="email"    name="email"    value="*Email" />
+                <input type="tel"   id="phone"    name="phone"    value="*Phone" />
+                <input type="text"  id="street"   name="street"   value="Street Address" />
+                <input type="text"  id="city"     name="city"     value="City" />
+                <input type="text"  id="state"    name="state"    value="State" />
+                <input type="text"  id="zip"      name="zip"      value="Zip" />
+                <textarea placeholder="Comments" name="comments" id="comments">Comments</textarea>
                 <input type="submit" name="submit" value="submit" class="button" />
                 <div class="group"></div>
                 <footer>

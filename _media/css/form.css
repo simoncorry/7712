@@ -70,9 +70,9 @@ section > form input, section > form textarea {
     width:345px;
     height:30px;
     border:1px solid rgb(20,20,20);
-    border-radius:10px;
+    border-radius:1px;
     padding-left:20px;
-    margin-bottom:5px;
+    margin:5px 0;
     color:rgb(113,113,113) !important;
     font:normal lighter 14px Georgia, serif;
     -webkit-transition:all 0.3s ease-in-out; 

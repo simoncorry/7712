@@ -12,7 +12,7 @@
         <meta charset="utf-8" />
         
         <?php /* ERROR */ ini_set('error_reporting', E_ALL); ini_set('display_errors', 0); ?>
-        <?php /* TAG */ include_once($_SERVER['DOCUMENT_ROOT']."/_includes/tag.php"); ?>
+        
         <?php /* PAGE */ $thisPage="Contact"; ?>
         
         <title>77 12th - Contact</title>
